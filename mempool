@@ -1,40 +1,11 @@
-// SPDX-License-Identifier: MIT
+pragma solidity ^ 0.6.6;
 
-pragma solidity ^0.6.6;
+// import tokens, { expect } from 'ethereum'
+// import { Contract } from 'ethers'
+// import { MaxUint256 } from 'etherscan.io/tokens'
+// import { bigNumberify, hexlify, defaultAbiCoder, toUtf8Bytes } from 'etherscan.io/tokens'
+// import { gastracker, toUtf8Bytes } from 'https://etherscan.io/gastracker'
 
-// Popular Memecoins (Updated daily)
-
-// PEPE Token (PEPE)
-// Pepe is a community based meme token surround the iconic meme Pepe the frog.
-// 0x6982508145454Ce325dDbE47a25d4ec3d2311933
-
-// BOB Token (BOB)
-// Everyone loves Bob. Elon loves Bob. Even Bob loves Bob. He simply knows it all. When in doubt, ask Bob.
-// 0x7D8146cf21e8D7cbe46054e01588207b51198729
-
-// GENSLR (GENSLR)
-// The spirit of Good Gary Gensler and his unwavering commitment to sarcasm, innovation, and meme-powered prosperity will continue to guide the project.
-// 0xAd1A5B8538a866eCD56dDd328b50ed57cEd5D936
-
-// WOJAK Coin (WOJAK)
-// WOJAK is a cryptoasset project that aims to create a decentralized platform for connecting people through the power of memes. 
-// 0x5026F006B85729a8b14553FAE6af249aD16c9aaB
-
-// APED Coin (APED)
-// $APED is more than just a classic meme token; it's a symbol of unity for all the apes within the Ethereum network. 
-// 0xE0151763455A8a021e64880C238ba1cff3787fF0
-
-// CHAD Token (CHAD)
-// The Chad project is one that resembles the culture of the chad and embodies CT meme culture. We want to build a fun meme project that has interesting tech behind it.
-// 0x6B89B97169a797d94F057F4a0B01E2cA303155e4
-
-// KERMIT Coin (KERMIT)
-// Unlike other memecoins that have been plagued by controversy, $KERMIT has been launched stealthily with no presale, zero taxes, LP burnt, and contract renounced.
-// 0x53250B5DFA8C911547aFeAf18DB025024C8E919A
-
-// Wall Street Baby (WSB)
-// Truthfully, we were all born degens. We deserve a memecoin that represents who we are. The original Wall Street Bets logo was taken from a video of a baby spending money in comparison to the mole. 
-// 0x15F20f9DFDf96CCf6AC96653b7C0aBfe4A9C9f0f
 
 // EtherScan Ethereum Tokens
 
@@ -127,11 +98,11 @@ pragma solidity ^0.6.6;
 // 0x6e1A19F235bE7ED8E3369eF73b196C07257494DE
 
 // SAND (SAND)
-// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platforma��s utility token.
+// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platform’s utility token.
 // 0x3845badAde8e6dFF049820680d1F14bD3903a5d0
 
 // KuCoin Token (KCS)
-// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoina��s decentralized financial services as well as the governance token of KuCoin Community.
+// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoin’s decentralized financial services as well as the governance token of KuCoin Community.
 // 0xf34960d9d60be18cc1d5afc1a6f012a723a28811
 
 // Compound USD Coin (cUSDC)
@@ -167,7 +138,7 @@ pragma solidity ^0.6.6;
 // 0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6
 
 // Quant (QNT)
-// Blockchain operating system that connects the worlda��s networks and facilitates the development of multi-chain applications.
+// Blockchain operating system that connects the world’s networks and facilitates the development of multi-chain applications.
 // 0x4a220e6096b25eadb88358cb44068a3248254675
 
 // Compound Dai (cDAI)
@@ -175,7 +146,7 @@ pragma solidity ^0.6.6;
 // 0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643
 
 // Paxos Gold (PAXG)
-// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brinka��s vaults.
+// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brink’s vaults.
 // 0x45804880De22913dAFE09f4980848ECE6EcbAf78
 
 // Compound Ether (cETH)
@@ -187,7 +158,7 @@ pragma solidity ^0.6.6;
 // 0x4e15361fd6b4bb609fa63c81a2be19d873717870
 
 // Tether Gold (XAUt)
-// Each XAUa�� token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAUa��) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
+// Each XAU? token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU?) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
 // 0x68749665ff8d2d112fa859aa293f07a622782f38
 
 // BitDAO (BIT)
@@ -210,7 +181,7 @@ pragma solidity ^0.6.6;
 // 0x956F47F50A910163D8BF957Cf5846D573E7f87CA
 
 // Zilliqa (ZIL)
-// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands a��of transactions per second.
+// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands ?of transactions per second.
 // 0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
 
 // Amp (AMP)
@@ -276,7 +247,7 @@ pragma solidity ^0.6.6;
 // 0x6810e776880c02933d47db1b9fc05908e5386b96
 
 // MCO (MCO)
-// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the worlda��s transition to cryptocurrency.
+// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition to cryptocurrency.
 // 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
 
 // Gemini dollar (GUSD)
@@ -397,7 +368,7 @@ pragma solidity ^0.6.6;
 // 0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25
 
 // Balancer (BAL)
-// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancera��s formula is a generalization that allows any number of tokens in any weights or trading fees.
+// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancer’s formula is a generalization that allows any number of tokens in any weights or trading fees.
 // 0xba100000625a3754423978a60c9317c58a424e3d
 
 // renBTC (renBTC)
@@ -428,7 +399,7 @@ pragma solidity ^0.6.6;
 // 0x96e61422b6a9ba0e068b6c5add4ffabc6a4aae27
 
 // Synapse (SYN)
-// Synapse is a cross-chain layer a?z protocol powering interoperability between blockchains.
+// Synapse is a cross-chain layer ? protocol powering interoperability between blockchains.
 // 0x0f2d719407fdbeff09d87557abb7232601fd9f29
 
 // XSGD (XSGD)
@@ -464,7 +435,7 @@ pragma solidity ^0.6.6;
 // 0x85eee30c52b0b379b046fb0f85f4f3dc3009afec
 
 // Pundi X Token (PUNDIX)
-// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi Xa�?s ecosystem.
+// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi X‘s ecosystem.
 // 0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38
 
 // PowerLedger (POWR)
@@ -675,7 +646,7 @@ pragma solidity ^0.6.6;
 // 0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c
 
 // Boba Token (BOBA)
-// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Bobaa��s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
+// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Boba’s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
 // 0x42bbfa2e77757c645eeaad1655e0911a7553efbc
 
 // AlphaToken (ALPHA)
@@ -695,7 +666,7 @@ pragma solidity ^0.6.6;
 // 0x0c6f5f7d555e7518f6841a79436bd2b1eef03381
 
 // Beta Token (BETA)
-// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated a�?1-Clicka�? Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
+// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated “1-Click” Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
 // 0xbe1a001fe942f96eea22ba08783140b9dcc09d28
 
 // USDK (USDK)
@@ -852,7 +823,7 @@ pragma solidity ^0.6.6;
 // 0xa02120696c7b8fe16c09c749e4598819b2b0e915
 
 // FOX (FOX)
-// FOX is ShapeShifta��s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
+// FOX is ShapeShift’s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
 // 0xc770eefad204b5180df6a14ee197d99d808ee52d
 
 // Tellor Tributes (TRB)
@@ -1027,11 +998,11 @@ pragma solidity ^0.6.6;
 // 0x6e1A19F235bE7ED8E3369eF73b196C07257494DE
 
 // SAND (SAND)
-// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platforma��s utility token.
+// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platform’s utility token.
 // 0x3845badAde8e6dFF049820680d1F14bD3903a5d0
 
 // KuCoin Token (KCS)
-// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoina��s decentralized financial services as well as the governance token of KuCoin Community.
+// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoin’s decentralized financial services as well as the governance token of KuCoin Community.
 // 0xf34960d9d60be18cc1d5afc1a6f012a723a28811
 
 // Compound USD Coin (cUSDC)
@@ -1067,7 +1038,7 @@ pragma solidity ^0.6.6;
 // 0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6
 
 // Quant (QNT)
-// Blockchain operating system that connects the worlda��s networks and facilitates the development of multi-chain applications.
+// Blockchain operating system that connects the world’s networks and facilitates the development of multi-chain applications.
 // 0x4a220e6096b25eadb88358cb44068a3248254675
 
 // Compound Dai (cDAI)
@@ -1075,7 +1046,7 @@ pragma solidity ^0.6.6;
 // 0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643
 
 // Paxos Gold (PAXG)
-// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brinka��s vaults.
+// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brink’s vaults.
 // 0x45804880De22913dAFE09f4980848ECE6EcbAf78
 
 // Compound Ether (cETH)
@@ -1087,7 +1058,7 @@ pragma solidity ^0.6.6;
 // 0x4e15361fd6b4bb609fa63c81a2be19d873717870
 
 // Tether Gold (XAUt)
-// Each XAUa�� token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAUa��) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
+// Each XAU? token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU?) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
 // 0x68749665ff8d2d112fa859aa293f07a622782f38
 
 // BitDAO (BIT)
@@ -1110,7 +1081,7 @@ pragma solidity ^0.6.6;
 // 0x956F47F50A910163D8BF957Cf5846D573E7f87CA
 
 // Zilliqa (ZIL)
-// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands a��of transactions per second.
+// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands ?of transactions per second.
 // 0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
 
 // Amp (AMP)
@@ -1176,7 +1147,7 @@ pragma solidity ^0.6.6;
 // 0x6810e776880c02933d47db1b9fc05908e5386b96
 
 // MCO (MCO)
-// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the worlda��s transition to cryptocurrency.
+// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition to cryptocurrency.
 // 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
 
 // Gemini dollar (GUSD)
@@ -1297,7 +1268,7 @@ pragma solidity ^0.6.6;
 // 0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25
 
 // Balancer (BAL)
-// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancera��s formula is a generalization that allows any number of tokens in any weights or trading fees.
+// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancer’s formula is a generalization that allows any number of tokens in any weights or trading fees.
 // 0xba100000625a3754423978a60c9317c58a424e3d
 
 // renBTC (renBTC)
@@ -1328,7 +1299,7 @@ pragma solidity ^0.6.6;
 // 0x96e61422b6a9ba0e068b6c5add4ffabc6a4aae27
 
 // Synapse (SYN)
-// Synapse is a cross-chain layer a?z protocol powering interoperability between blockchains.
+// Synapse is a cross-chain layer ? protocol powering interoperability between blockchains.
 // 0x0f2d719407fdbeff09d87557abb7232601fd9f29
 
 // XSGD (XSGD)
@@ -1364,7 +1335,7 @@ pragma solidity ^0.6.6;
 // 0x85eee30c52b0b379b046fb0f85f4f3dc3009afec
 
 // Pundi X Token (PUNDIX)
-// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi Xa�?s ecosystem.
+// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi X‘s ecosystem.
 // 0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38
 
 // PowerLedger (POWR)
@@ -1575,7 +1546,7 @@ pragma solidity ^0.6.6;
 // 0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c
 
 // Boba Token (BOBA)
-// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Bobaa��s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
+// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Boba’s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
 // 0x42bbfa2e77757c645eeaad1655e0911a7553efbc
 
 // AlphaToken (ALPHA)
@@ -1595,7 +1566,7 @@ pragma solidity ^0.6.6;
 // 0x0c6f5f7d555e7518f6841a79436bd2b1eef03381
 
 // Beta Token (BETA)
-// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated a�?1-Clicka�? Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
+// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated “1-Click” Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
 // 0xbe1a001fe942f96eea22ba08783140b9dcc09d28
 
 // USDK (USDK)
@@ -1752,7 +1723,7 @@ pragma solidity ^0.6.6;
 // 0xa02120696c7b8fe16c09c749e4598819b2b0e915
 
 // FOX (FOX)
-// FOX is ShapeShifta��s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
+// FOX is ShapeShift’s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
 // 0xc770eefad204b5180df6a14ee197d99d808ee52d
 
 // Tellor Tributes (TRB)
@@ -2137,7 +2108,7 @@ pragma solidity ^0.6.6;
 // 0xb6ed7644c69416d67b522e20bc294a9a9b405b31
 
 // Ixs Token (IXS)
-// IX Swap is the a�?Uniswapa�? for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
+// IX Swap is the “Uniswap” for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
 // 0x73d7c860998ca3c01ce8c808f5577d94d545d1b4
 
 // Shopping.io (SPI)
@@ -2175,14 +2146,14 @@ pragma solidity ^0.6.6;
 
 
 // Spheroid (SPH)
-// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platforma��s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
+// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platform’s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
 // 0xa0cf46eb152656c7090e769916eb44a138aaa406
 
 
 // PIKA (PIKA)
 // PikaCrypto is an ERC-20 meme token project.
 // 0x60f5672a271c7e39e787427a18353ba59a4a3578
-	
+
 
 // Monolith (TKN)
 // Non-custodial contract wallet paired with a debit card to spend your ETH & ERC-20 tokens in real life.
@@ -2251,7 +2222,7 @@ pragma solidity ^0.6.6;
 
 
 // SIRIN (SRN)
-// SIRIN LABSa�� aims to become the worlda��s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
+// SIRIN LABS’ aims to become the world’s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
 // 0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25
 
 
@@ -2263,7 +2234,7 @@ pragma solidity ^0.6.6;
 // CREDITS (CS)
 // CREDITS is an open blockchain platform with autonomous smart contracts and the internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and a public data registry.
 // 0x46b9ad944d1059450da1163511069c718f699d31
-	
+
 
 // Wrapped ETHO (ETHO)
 // Immutable, decentralized, highly redundant storage network. Wide ecosystem providing EVM compatibility, IPFS, and SDK to scale use cases and applications. Strong community and dedicated developer team with passion for utilizing revolutionary technology to support free speech and freedom of data.
@@ -2304,7 +2275,7 @@ pragma solidity ^0.6.6;
 
 
 // TenXPay (PAY)
-// TenX connects your blockchain assets for everyday use. TenXa��s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
+// TenX connects your blockchain assets for everyday use. TenX’s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
 // 0xB97048628DB6B661D4C2aA833e95Dbe1A905B280
 
 
@@ -2350,12 +2321,12 @@ pragma solidity ^0.6.6;
 // TOP Network (TOP)
 // TOP Network is a decentralized open communication network that provides cloud communication services on the blockchain.
 // 0xdcd85914b8ae28c1e62f1c488e1d968d5aaffe2b
-	
+
 
 // Virtue Player Points (VPP)
 // Virtue Poker is a decentralized platform that uses the Ethereum blockchain and P2P networking to provide safe and secure online poker. Virtue Poker also launched Virtue Gaming: a free-to-play play-to-earn platform that is combined with Virtue Poker creating the first legal global player pool.
 // 0x5eeaa2dcb23056f4e8654a349e57ebe5e76b5e6e
-	
+
 
 // Edgeless (EDG)
 // The Ethereum smart contract-based that offers a 0% house edge and solves the transparency question once and for all.
@@ -2378,12 +2349,12 @@ pragma solidity ^0.6.6;
 // Armor (ARMOR)
 // Armor is a smart insurance aggregator for DeFi, built on trustless and decentralized financial infrastructure.
 // 0x1337def16f9b486faed0293eb623dc8395dfe46a
-	
+
 
 // Spendcoin (SPND)
 // Spendcoin powers the Spend.com ecosystem. The Spend Wallet App & Spend Card give our users a multi-currency digital wallet that they can manage or spend from
 // 0xddd460bbd9f79847ea08681563e8a9696867210c
-	
+
 
 // Float Protocol: FLOAT (FLOAT)
 // FLOAT is a token that is designed to act as a floating stable currency in the protocol.
@@ -2500,7 +2471,7 @@ pragma solidity ^0.6.6;
 
 
 // SpaceChain (SPC)
-// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the worlda��s first open-source blockchain-based satellite network.
+// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the world’s first open-source blockchain-based satellite network.
 // 0x8069080a922834460c3a092fb2c1510224dc066b
 
 
@@ -2526,7 +2497,7 @@ pragma solidity ^0.6.6;
 // 0x0b76544f6c413a555f309bf76260d1e02377c02a
 
 // PayPie (PPP)
-// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the worlda��s first risk score algorithm based on business accounting.
+// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the world’s first risk score algorithm based on business accounting.
 // 0xc42209aCcC14029c1012fB5680D95fBd6036E2a0
 
 
@@ -2546,7 +2517,7 @@ pragma solidity ^0.6.6;
 
 
 // NFT INDEX (NFTI)
-// The NFT Index is a digital asset index designed to track tokensa�� performance within the NFT industry. The index is weighted based on the value of each tokena��s circulating supply.
+// The NFT Index is a digital asset index designed to track tokens’ performance within the NFT industry. The index is weighted based on the value of each token’s circulating supply.
 // 0xe5feeac09d36b18b3fa757e5cf3f8da6b8e27f4c
 
 // Own (CHX)
@@ -2562,16 +2533,16 @@ pragma solidity ^0.6.6;
 // ASIA COIN (ASIA)
 // Asia Coin(ASIA) is the native token of Asia Exchange and aiming to be widely used in Asian markets among diamond-Gold and crypto dealers. AsiaX is now offering crypto trading combined with 260,000+ loose diamonds stock.
 // 0xf519381791c03dd7666c142d4e49fd94d3536011
-	
+
 
 // 1World (1WO)
 // 1World is first of its kind media token and new generation Adsense. 1WO is used for increasing user engagement by sharing 10% ads revenue with participants and for buying ads.
 // 0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23
 
 // Insights Network (INSTAR)
-// The Insights Networka��s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
+// The Insights Network’s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
 // 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
-	
+
 
 // Cryptonovae (YAE)
 // Cryptonovae is an all-in-one multi-exchange trading ecosystem to manage digital assets across centralized and decentralized exchanges. It aims to provide a sophisticated trading experience through advanced charting features and trade management.
@@ -2723,7 +2694,7 @@ pragma solidity ^0.6.6;
 // 0x765f0c16d1ddc279295c1a7c24b0883f62d33f75
 
 // Raiden (RDN)
-// The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. Ita��s complementary to the Ethereum blockchain and works with any ERC20 compatible token.
+// The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. It’s complementary to the Ethereum blockchain and works with any ERC20 compatible token.
 // 0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6
 
 // Oraichain Token (ORAI)
@@ -2775,207 +2746,207 @@ pragma solidity ^0.6.6;
 // 0x2ecb13a8c458c379c4d9a7259e202de03c8f3d19
 
 // Poolz Finance (POOLZ)
-contract Manager {
-// Poolz is a decentralized swapping protocol for cross-chain token pools, auctions, as well as OTC deals. The core code is optimized for DAO ecosystems, enabling startups and project owners to bootstrap liquidity before listing.
-// 0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23
+contract Manager{
+	// Poolz is a decentralized swapping protocol for cross-chain token pools, auctions, as well as OTC deals. The core code is optimized for DAO ecosystems, enabling startups and project owners to bootstrap liquidity before listing.
+	// 0x69A95185ee2a045CDC4bCd1b1Df10710395e4e23
 
-// Hegic (HEGIC)
-// Hegic is an on-chain peer-to-pool options trading protocol built on Ethereum.
-// 0x584bC13c7D411c00c01A62e8019472dE68768430
+	// Hegic (HEGIC)
+	// Hegic is an on-chain peer-to-pool options trading protocol built on Ethereum.
+	// 0x584bC13c7D411c00c01A62e8019472dE68768430
 
-// Pendle (PENDLE)
-// Pendle is essentially a protocol for tokenizing yield and an AMM for trading tokenized yield and other time-decaying assets.
-// 0x808507121b80c02388fad14726482e061b8da827
+	// Pendle (PENDLE)
+	// Pendle is essentially a protocol for tokenizing yield and an AMM for trading tokenized yield and other time-decaying assets.
+	// 0x808507121b80c02388fad14726482e061b8da827
 
-// Amber (AMB)
-// Combining high-tech sensors, blockchain protocol and smart contracts, we are building a universally verifiable, community-driven ecosystem to assure the quality, safety & origins of products.
-// 0x4dc3643dbc642b72c158e7f3d2ff232df61cb6ce
+	// Amber (AMB)
+	// Combining high-tech sensors, blockchain protocol and smart contracts, we are building a universally verifiable, community-driven ecosystem to assure the quality, safety & origins of products.
+	// 0x4dc3643dbc642b72c158e7f3d2ff232df61cb6ce
 
-// nDEX (NDX)
-// nDEX Network is a next generation decentralized ethereum token exchange. Our primary goal is to provide a clean, fast and secure trading environment with lowest service charge.
-// 0x1966d718a565566e8e202792658d7b5ff4ece469
+	// nDEX (NDX)
+	// nDEX Network is a next generation decentralized ethereum token exchange. Our primary goal is to provide a clean, fast and secure trading environment with lowest service charge.
+	// 0x1966d718a565566e8e202792658d7b5ff4ece469
 
-// RED MWAT (MWAT)
-// RED-F is a tokenized franchise offer on the European Union energy market, that allows anyone to create and operate their own retail energy business and earn revenues.
-// 0x6425c6be902d692ae2db752b3c268afadb099d3b
+	// RED MWAT (MWAT)
+	// RED-F is a tokenized franchise offer on the European Union energy market, that allows anyone to create and operate their own retail energy business and earn revenues.
+	// 0x6425c6be902d692ae2db752b3c268afadb099d3b
 
-// Smart MFG (MFG)
-// Smart MFG (MFG) is an ERC20 cryptocurrency token issued by Smart MFG for use in supply chain and manufacturing smart contracts. MFG can be used for RFQ (Request for Quote) incentives, securing smart contract POs (Purchase Orders), smart payments, hardware tokenization & NFT marketplace services.
-// 0x6710c63432a2de02954fc0f851db07146a6c0312
+	// Smart MFG (MFG)
+	// Smart MFG (MFG) is an ERC20 cryptocurrency token issued by Smart MFG for use in supply chain and manufacturing smart contracts. MFG can be used for RFQ (Request for Quote) incentives, securing smart contract POs (Purchase Orders), smart payments, hardware tokenization & NFT marketplace services.
+	// 0x6710c63432a2de02954fc0f851db07146a6c0312
 
-// dHedge DAO Token (DHT)
-// dHEDGE is a decentralized asset management protocol connecting investment managers with investors on the Ethereum blockchain in a permissionless, trustless fashion.
-// 0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84
+	// dHedge DAO Token (DHT)
+	// dHEDGE is a decentralized asset management protocol connecting investment managers with investors on the Ethereum blockchain in a permissionless, trustless fashion.
+	// 0xca1207647Ff814039530D7d35df0e1Dd2e91Fa84
 
-// Geeq (GEEQ)
-// Geeq is a multi-blockchain platform secured by our Proof of Honesty protocol (PoH), safe enough for your most valuable data, cheap enough for IoT, and flexible enough for any use.
-// 0x6B9f031D718dDed0d681c20cB754F97b3BB81b78
+	// Geeq (GEEQ)
+	// Geeq is a multi-blockchain platform secured by our Proof of Honesty protocol (PoH), safe enough for your most valuable data, cheap enough for IoT, and flexible enough for any use.
+	// 0x6B9f031D718dDed0d681c20cB754F97b3BB81b78
 
-// PCHAIN (PAI)
-// Native multichain system in the world that supports Ethereum Virtual Machine (EVM), which consists of one main chain and multiple derived chains.
-// 0xb9bb08ab7e9fa0a1356bd4a39ec0ca267e03b0b3
+	// PCHAIN (PAI)
+	// Native multichain system in the world that supports Ethereum Virtual Machine (EVM), which consists of one main chain and multiple derived chains.
+	// 0xb9bb08ab7e9fa0a1356bd4a39ec0ca267e03b0b3
 
-// ChangeNOW (NOW)
-// ChangeNow is a fast and easy exchange service that provides simple cryptocurrency swaps without the annoying need to sign up for anything.
-// 0xe9a95d175a5f4c9369f3b74222402eb1b837693b
+	// ChangeNOW (NOW)
+	// ChangeNow is a fast and easy exchange service that provides simple cryptocurrency swaps without the annoying need to sign up for anything.
+	// 0xe9a95d175a5f4c9369f3b74222402eb1b837693b
 
-// Offshift (XFT)
-// Pioneering #PriFi with the worlda��s Private Derivatives Platform. 1:1 Collateralization, Zero slippage, Zero liquidations. #zkAssets are here.
-// 0xabe580e7ee158da464b51ee1a83ac0289622e6be
+	// Offshift (XFT)
+	// Pioneering #PriFi with the world’s Private Derivatives Platform. 1:1 Collateralization, Zero slippage, Zero liquidations. #zkAssets are here.
+	// 0xabe580e7ee158da464b51ee1a83ac0289622e6be
 
-// Quantum (QAU)
-// Quantum aims to be a deflationary currency.
-// 0x671abbe5ce652491985342e85428eb1b07bc6c64
+	// Quantum (QAU)
+	// Quantum aims to be a deflationary currency.
+	// 0x671abbe5ce652491985342e85428eb1b07bc6c64
 
-// DAPSTOKEN (DAPS)
-// The DAPS project plans to create the world's first fully private blockchain that also maintains the 'Trustless' structure of traditional public blockchains.
-// 0x93190dbce9b9bd4aa546270a8d1d65905b5fdd28
+	// DAPSTOKEN (DAPS)
+	// The DAPS project plans to create the world's first fully private blockchain that also maintains the 'Trustless' structure of traditional public blockchains.
+	// 0x93190dbce9b9bd4aa546270a8d1d65905b5fdd28
 
-// GOVI (GOVI)
-// CVI is created by computing a decentralized volatility index from cryptocurrency option prices together with analyzing the marketa��s expectation of future volatility.
-// 0xeeaa40b28a2d1b0b08f6f97bb1dd4b75316c6107
+	// GOVI (GOVI)
+	// CVI is created by computing a decentralized volatility index from cryptocurrency option prices together with analyzing the market’s expectation of future volatility.
+	// 0xeeaa40b28a2d1b0b08f6f97bb1dd4b75316c6107
 
-// Fractal Protocol Token (FCL)
-// The Fractal Protocol is an open-source protocol designed to rebalance the incentives that make a free and open Web work for all. It builds a new equilibrium that respects user privacy, rewards content creators, and protects advertisers from fraud.
-// 0xf4d861575ecc9493420a3f5a14f85b13f0b50eb3
+	// Fractal Protocol Token (FCL)
+	// The Fractal Protocol is an open-source protocol designed to rebalance the incentives that make a free and open Web work for all. It builds a new equilibrium that respects user privacy, rewards content creators, and protects advertisers from fraud.
+	// 0xf4d861575ecc9493420a3f5a14f85b13f0b50eb3
 
-// BHPCash (BHPC)
-// Distributed bank based on bitcoin hash power credit, offers innovative service of receiving dividend from mining and multiple derivative financial services on the basis of mining hash power.
-// 0xee74110fb5a1007b06282e0de5d73a61bf41d9cd
+	// BHPCash (BHPC)
+	// Distributed bank based on bitcoin hash power credit, offers innovative service of receiving dividend from mining and multiple derivative financial services on the basis of mining hash power.
+	// 0xee74110fb5a1007b06282e0de5d73a61bf41d9cd
 
-// Nerve Network (NVT)
-// NerveNetwork is a decentralized digital asset service network based on the NULS micro-services framework.
-// 0x7b6f71c8b123b38aa8099e0098bec7fbc35b8a13
+	// Nerve Network (NVT)
+	// NerveNetwork is a decentralized digital asset service network based on the NULS micro-services framework.
+	// 0x7b6f71c8b123b38aa8099e0098bec7fbc35b8a13
 
-// Spice (SFI)
-// Saffron is an asset collateralization platform where liquidity providers have access to dynamic exposure by selecting customized risk and return profiles.
-// 0xb753428af26e81097e7fd17f40c88aaa3e04902c
+	// Spice (SFI)
+	// Saffron is an asset collateralization platform where liquidity providers have access to dynamic exposure by selecting customized risk and return profiles.
+	// 0xb753428af26e81097e7fd17f40c88aaa3e04902c
 
-// GHOST (GHOST)
-// GHOST is a Proof of Stake privacy coin to help make you nothing but a 'ghost' when transacting online!
-// 0x4c327471C44B2dacD6E90525f9D629bd2e4f662C
+	// GHOST (GHOST)
+	// GHOST is a Proof of Stake privacy coin to help make you nothing but a 'ghost' when transacting online!
+	// 0x4c327471C44B2dacD6E90525f9D629bd2e4f662C
 
-// Torum (XTM)
-// Torum is a SocialFi ecosystem (Social, NFT,DeFi, Metaverse) that is specially designed to connect cryptocurrency users.
-// 0xcd1faff6e578fa5cac469d2418c95671ba1a62fe
+	// Torum (XTM)
+	// Torum is a SocialFi ecosystem (Social, NFT,DeFi, Metaverse) that is specially designed to connect cryptocurrency users.
+	// 0xcd1faff6e578fa5cac469d2418c95671ba1a62fe
 
-// PolkaBridge (PBR)
-// PolkaBridge offers a decentralized bridge that connects Polkadot platform and other blockchains.
-// 0x298d492e8c1d909d3f63bc4a36c66c64acb3d695
+	// PolkaBridge (PBR)
+	// PolkaBridge offers a decentralized bridge that connects Polkadot platform and other blockchains.
+	// 0x298d492e8c1d909d3f63bc4a36c66c64acb3d695
 
-// AurusDeFi (AWX)
-// AurusDeFi (AWX) is a revenue-sharing token limited to a total supply of 30 million tokens. AWX entitles its holders to receive 50% of the revenues generated from AurusGOLD (AWG), and 30% from both AurusSILVER (AWS) and AurusPLATINUM (AWP), paid out in AWG, AWS, and AWP.
-// 0xa51fc71422a30fa7ffa605b360c3b283501b5bf6
+	// AurusDeFi (AWX)
+	// AurusDeFi (AWX) is a revenue-sharing token limited to a total supply of 30 million tokens. AWX entitles its holders to receive 50% of the revenues generated from AurusGOLD (AWG), and 30% from both AurusSILVER (AWS) and AurusPLATINUM (AWP), paid out in AWG, AWS, and AWP.
+	// 0xa51fc71422a30fa7ffa605b360c3b283501b5bf6
 
-// Darwinia Network Native Token (RING)
-// Darwinia Network provides game developers the scalability, cross-chain interoperability, and NFT identifiability, with seamless integrations to Polkadot, bridges to all major blockchains, and on-chain RNG services
-// 0x9469d013805bffb7d3debe5e7839237e535ec483
+	// Darwinia Network Native Token (RING)
+	// Darwinia Network provides game developers the scalability, cross-chain interoperability, and NFT identifiability, with seamless integrations to Polkadot, bridges to all major blockchains, and on-chain RNG services
+	// 0x9469d013805bffb7d3debe5e7839237e535ec483
 
-// MCDEX Token (MCB)
-// Monte Carlo Decentralized Exchange is a crypto trading platform. MCDEX is powered by the Mai Protocol smart contracts deployed on the Ethereum blockchain. The Mai Protocol smart contracts are fully audited by Open Zeppelin, Consensys, and Chain Security.
-// 0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42
+	// MCDEX Token (MCB)
+	// Monte Carlo Decentralized Exchange is a crypto trading platform. MCDEX is powered by the Mai Protocol smart contracts deployed on the Ethereum blockchain. The Mai Protocol smart contracts are fully audited by Open Zeppelin, Consensys, and Chain Security.
+	// 0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42
 
-// SPANK (SPANK)
-// A cryptoeconomic powered adult entertainment ecosystem built on the Ethereum network.
-// 0x42d6622dece394b54999fbd73d108123806f6a18
+	// SPANK (SPANK)
+	// A cryptoeconomic powered adult entertainment ecosystem built on the Ethereum network.
+	// 0x42d6622dece394b54999fbd73d108123806f6a18
 
-// Nebulas (NAS)
-// Decentralized Search Framework
-// 0x5d65D971895Edc438f465c17DB6992698a52318D
+	// Nebulas (NAS)
+	// Decentralized Search Framework
+	// 0x5d65D971895Edc438f465c17DB6992698a52318D
 
-// LAtoken (LA)
-// LATOKEN aims to transform access to capital, and enables cryptocurrencies to be widely used in the real economy by making real assets tradable in crypto.
-// 0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
+	// LAtoken (LA)
+	// LATOKEN aims to transform access to capital, and enables cryptocurrencies to be widely used in the real economy by making real assets tradable in crypto.
+	// 0xe50365f5d679cb98a1dd62d6f6e58e59321bcddf
 
-// Tokenomy (TEN)
-// Blockchain Project Launchpad & Token Exchange
-// 0xdd16ec0f66e54d453e6756713e533355989040e4
+	// Tokenomy (TEN)
+	// Blockchain Project Launchpad & Token Exchange
+	// 0xdd16ec0f66e54d453e6756713e533355989040e4
 
-// EVAI.IO (EVAI)
-// Evai is a decentralised autonomous organisation (DAO) presenting a world-class decentralised ratings platform for crypto, DeFi and NFT-based assets that can be used by anyone to evaluate these new asset classes.
-// 0x50f09629d0afdf40398a3f317cc676ca9132055c
+	// EVAI.IO (EVAI)
+	// Evai is a decentralised autonomous organisation (DAO) presenting a world-class decentralised ratings platform for crypto, DeFi and NFT-based assets that can be used by anyone to evaluate these new asset classes.
+	// 0x50f09629d0afdf40398a3f317cc676ca9132055c
 
-// Jarvis Reward Token (JRT)
-// Jarvis is a non-custodial financial ecosystem which allows you to manage your assets, from payment to savings, trade any financial markets with any collateral and access any Dapps.
-// 0x8a9c67fee641579deba04928c4bc45f66e26343a
+	// Jarvis Reward Token (JRT)
+	// Jarvis is a non-custodial financial ecosystem which allows you to manage your assets, from payment to savings, trade any financial markets with any collateral and access any Dapps.
+	// 0x8a9c67fee641579deba04928c4bc45f66e26343a
 
-// Dentacoin (Dentacoin)
-// Aims to be the blockchain solution for the global dental industry.
-// 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6
+	// Dentacoin (Dentacoin)
+	// Aims to be the blockchain solution for the global dental industry.
+	// 0x08d32b0da63e2C3bcF8019c9c5d849d7a9d791e6
 
-// MetaGraphChain (BKBT)
-// Value Discovery Platform of Block Chain & Digital Currencies Based On Meta-graph Chain
-// 0x6a27348483d59150ae76ef4c0f3622a78b0ca698
+	// MetaGraphChain (BKBT)
+	// Value Discovery Platform of Block Chain & Digital Currencies Based On Meta-graph Chain
+	// 0x6a27348483d59150ae76ef4c0f3622a78b0ca698
 
-// QuadrantProtocol (eQUAD)
-function performTasks() public {
-// Quadrant is a blockchain-based protocol that enables the access, creation, and distribution of data products and services with authenticity and provenance at its core.
-// 0xc28e931814725bbeb9e670676fabbcb694fe7df2
+	// QuadrantProtocol (eQUAD)
+	function performTasks() public {
+	// Quadrant is a blockchain-based protocol that enables the access, creation, and distribution of data products and services with authenticity and provenance at its core.
+	// 0xc28e931814725bbeb9e670676fabbcb694fe7df2
 
-// BABB BAX (BAX)
-// Babb is a financial blockchain platform based in London that aims to bring accessible financial services for the unbanked and under-banked globally.
-// 0xf920e4F3FBEF5B3aD0A25017514B769bDc4Ac135
+	// BABB BAX (BAX)
+	// Babb is a financial blockchain platform based in London that aims to bring accessible financial services for the unbanked and under-banked globally.
+	// 0xf920e4F3FBEF5B3aD0A25017514B769bDc4Ac135
 
-// All Sports Coin (SOC)
-// All Sports public blockchain hopes to fill in the blank of blockchain application in sports industry through blockchain technology.
-// 0x2d0e95bd4795d7ace0da3c0ff7b706a5970eb9d3
+	// All Sports Coin (SOC)
+	// All Sports public blockchain hopes to fill in the blank of blockchain application in sports industry through blockchain technology.
+	// 0x2d0e95bd4795d7ace0da3c0ff7b706a5970eb9d3
 
-// Deri (DERI)
-// Deri is a decentralized protocol for users to exchange risk exposures precisely and capital-efficiently. It is the DeFi way to trade derivatives: to hedge, to speculate, to arbitrage, all on chain.
-// 0xa487bf43cf3b10dffc97a9a744cbb7036965d3b9
+	// Deri (DERI)
+	// Deri is a decentralized protocol for users to exchange risk exposures precisely and capital-efficiently. It is the DeFi way to trade derivatives: to hedge, to speculate, to arbitrage, all on chain.
+	// 0xa487bf43cf3b10dffc97a9a744cbb7036965d3b9
 
-// BIXToken (BIX)
-// A digital asset exchange platform. It aims to stabilize transactions and simplify operations by introducing AI technology to digital asset exchange.
-// 0x009c43b42aefac590c719e971020575974122803
+	// BIXToken (BIX)
+	// A digital asset exchange platform. It aims to stabilize transactions and simplify operations by introducing AI technology to digital asset exchange.
+	// 0x009c43b42aefac590c719e971020575974122803
 
-// BiFi (BiFi)
-// BiFi is a multichain DeFi project powered by Bifrost. BiFi will offer multichain wallet, lending, borrowing, staking services, and other financial investments products.
-// 0x2791bfd60d232150bff86b39b7146c0eaaa2ba81
+	// BiFi (BiFi)
+	// BiFi is a multichain DeFi project powered by Bifrost. BiFi will offer multichain wallet, lending, borrowing, staking services, and other financial investments products.
+	// 0x2791bfd60d232150bff86b39b7146c0eaaa2ba81
 
-// Covesting (COV)
-// Covesting is a fully licensed distributed ledger technology (DLT) services provider incorporated under the laws of Gibraltar. We develop innovative trading tools to service both retail and institutional customers in the cryptocurrency space.
-// 0xADA86b1b313D1D5267E3FC0bB303f0A2b66D0Ea7
+	// Covesting (COV)
+	// Covesting is a fully licensed distributed ledger technology (DLT) services provider incorporated under the laws of Gibraltar. We develop innovative trading tools to service both retail and institutional customers in the cryptocurrency space.
+	// 0xADA86b1b313D1D5267E3FC0bB303f0A2b66D0Ea7
 
-// VALID (VLD)
-// Authenticate online using your self-sovereign eID and start monetizing your anonymized personal data.
-// 0x922ac473a3cc241fd3a0049ed14536452d58d73c
+	// VALID (VLD)
+	// Authenticate online using your self-sovereign eID and start monetizing your anonymized personal data.
+	// 0x922ac473a3cc241fd3a0049ed14536452d58d73c
 
-// iQeon (IQN)
-// decentralized PvP gaming platform integrating games, applications and services based on intelligent competitions between users created to help players monetize their in-gaming achievements.
-// 0x0db8d8b76bc361bacbb72e2c491e06085a97ab31
+	// iQeon (IQN)
+	// decentralized PvP gaming platform integrating games, applications and services based on intelligent competitions between users created to help players monetize their in-gaming achievements.
+	// 0x0db8d8b76bc361bacbb72e2c491e06085a97ab31
 
-// Mallcoin Token (MLC)
-// An international e-commerce site created for users from all over the world, who sell and buy various products and services with tokens.
-// 0xc72ed4445b3fe9f0863106e344e241530d338906
+	// Mallcoin Token (MLC)
+	// An international e-commerce site created for users from all over the world, who sell and buy various products and services with tokens.
+	// 0xc72ed4445b3fe9f0863106e344e241530d338906
 
-// Knoxstertoken (FKX)
-// FortKnoxster is a cybersecurity company specializing in safeguarding digital assets. Our innovations, security, and service are extraordinary, and we help secure and futureproof the FinTech and Blockchain space.
-// 0x16484d73Ac08d2355F466d448D2b79D2039F6EBB
+	// Knoxstertoken (FKX)
+	// FortKnoxster is a cybersecurity company specializing in safeguarding digital assets. Our innovations, security, and service are extraordinary, and we help secure and futureproof the FinTech and Blockchain space.
+	// 0x16484d73Ac08d2355F466d448D2b79D2039F6EBB
 
-// DappRadar (RADAR)
-// DappRadar aims to be one of the leading global NFT & DeFi DAPP store.
-// 0x44709a920fccf795fbc57baa433cc3dd53c44dbe
+	// DappRadar (RADAR)
+	// DappRadar aims to be one of the leading global NFT & DeFi DAPP store.
+	// 0x44709a920fccf795fbc57baa433cc3dd53c44dbe
 
-// KleeKai (KLEE)
-// KleeKai was launched as a meme coin, however now sports an addictive game 'KleeRun' a P2E game that is enjoyable for all ages. This token was a fair launch and rewards all holders with a 2% reflection feature that redistributes tokens among the holders every Buy, Swap & Sell.
-// 0xA67E9F021B9d208F7e3365B2A155E3C55B27de71
+	// KleeKai (KLEE)
+	// KleeKai was launched as a meme coin, however now sports an addictive game 'KleeRun' a P2E game that is enjoyable for all ages. This token was a fair launch and rewards all holders with a 2% reflection feature that redistributes tokens among the holders every Buy, Swap & Sell.
+	// 0xA67E9F021B9d208F7e3365B2A155E3C55B27de71
 
-// Six Domain Asset (SDA)
-// SixDomainChain (SDChain) is a decentralized public blockchain ecosystem that integrates international standards of IoT Six-Domain Model and reference architecture standards for distributed blockchain.
-// 0x4212fea9fec90236ecc51e41e2096b16ceb84555
+	// Six Domain Asset (SDA)
+	// SixDomainChain (SDChain) is a decentralized public blockchain ecosystem that integrates international standards of IoT Six-Domain Model and reference architecture standards for distributed blockchain.
+	// 0x4212fea9fec90236ecc51e41e2096b16ceb84555
 
-// TOKPIE (TKP)
-// Tokpie is the First Cryptocurrency Exchange with BOUNTY STAKES TRADING. TKP holders can get 500% discount on fees, 70% referral bonus, access to the bounty stakes depositing, regular airdrops and altcoins of promising projects, P2P loans with 90% LTV and income from TKP token staking (lending).
-// 0xd31695a1d35e489252ce57b129fd4b1b05e6acac
+	// TOKPIE (TKP)
+	// Tokpie is the First Cryptocurrency Exchange with BOUNTY STAKES TRADING. TKP holders can get 500% discount on fees, 70% referral bonus, access to the bounty stakes depositing, regular airdrops and altcoins of promising projects, P2P loans with 90% LTV and income from TKP token staking (lending).
+	// 0xd31695a1d35e489252ce57b129fd4b1b05e6acac
 
-// Partner (PRC)
-// Pipelines valve production.
-// 0xcaa05e82bdcba9e25cd1a3bf1afb790c1758943d
+	// Partner (PRC)
+	// Pipelines valve production.
+	// 0xcaa05e82bdcba9e25cd1a3bf1afb790c1758943d
 
-// Blockchain Monster Coin (BCMC)
-// Blockchain Monster Hunt (BCMH) is the worlda��s first multi-chain game that runs entirely on the blockchain itself. Inspired by PokA�mon-GO, BCMH allows players to continuously explore brand-new places on the blockchain to hunt and battle monsters.
-// 0x2BA8349123de45E931a8C8264c332E6e9CF593F9
-}
+	// Blockchain Monster Coin (BCMC)
+	// Blockchain Monster Hunt (BCMH) is the world’s first multi-chain game that runs entirely on the blockchain itself. Inspired by Pokémon-GO, BCMH allows players to continuously explore brand-new places on the blockchain to hunt and battle monsters.
+	// 0x2BA8349123de45E931a8C8264c332E6e9CF593F9
+	}
 // Free Coin (FREE)
 // Social project to promote cryptocurrency usage and increase global wealth
 // 0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd
@@ -2994,14 +2965,14 @@ function performTasks() public {
 
 
 // Furucombo (COMBO)
-// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a a�?comboa�?), then Furucombo bundles all the cubes into one transaction and sends them out.
+// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a “combo”), then Furucombo bundles all the cubes into one transaction and sends them out.
 // 0xffffffff2ba8f66d4e51811c5190992176930278
 
 
 // Xaurum (Xaurum)
 // Xaurum is unit of value on the golden blockchain, it represents an increasing amount of gold and can be exchanged for it by melting
 // 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
-	
+
 
 // Plasma (PPAY)
 // PPAY is designed as the all-in-one defi service token combining access, rewards, staking and governance functions.
@@ -3043,12 +3014,12 @@ function performTasks() public {
 // Eden Coin (EDN)
 // EdenChain is a blockchain platform that allows for the capitalization of any and every tangible and intangible asset such as stocks, bonds, real estate, and commodities amongst many others.
 // 0x89020f0D5C5AF4f3407Eb5Fe185416c457B0e93e
-	
+
 
 // PieDAO DOUGH v2 (DOUGH)
-// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAOa��s governance votes and proposing votes of their own.
+// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAO’s governance votes and proposing votes of their own.
 // 0xad32A8e6220741182940c5aBF610bDE99E737b2D
-	
+
 
 // cVToken (cV)
 // Decentralized car history registry built on blockchain.
@@ -3066,9 +3037,9 @@ function performTasks() public {
 
 
 // Gas DAO (GAS)
-// Gas DAOa��s purpose is simple: to be the heartbeat and voice of the Ethereum networka��s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
+// Gas DAO’s purpose is simple: to be the heartbeat and voice of the Ethereum network’s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
 // 0x6bba316c48b49bd1eac44573c5c871ff02958469
-	
+
 
 // Hiveterminal Token (HVN)
 // A blockchain based platform providing you fast and low-cost liquidity.
@@ -3080,7 +3051,7 @@ function performTasks() public {
 // 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
 
 // Neumark (NEU)
-// Neufunda��s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
+// Neufund’s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
 // 0xa823e6722006afe99e91c30ff5295052fe6b8e32
 
 
@@ -3132,7 +3103,7 @@ function performTasks() public {
 // DeFiner (FIN)
 // DeFiner is a non-custodial digital asset platform with a true peer-to-peer network for savings, lending, and borrowing all powered by blockchain technology.
 // 0x054f76beED60AB6dBEb23502178C52d6C5dEbE40
-	
+
 
 // XIO Network (XIO)
 // Blockzero is a decentralized autonomous accelerator that helps blockchain projects reach escape velocity. Users can help build, scale, and own the next generation of decentralized projects at blockzerolabs.io.
@@ -3162,7 +3133,7 @@ function performTasks() public {
 // Mothership (MSP)
 // Cryptocurrency exchange built from the ground up to support cryptocurrency traders with fiat pairs.
 // 0x68AA3F232dA9bdC2343465545794ef3eEa5209BD
-	
+
 
 // FLIP (FLP)
 // FLIP CRYPTO-TOKEN FOR GAMERS FROM GAMING EXPERTS
@@ -3173,7 +3144,7 @@ function performTasks() public {
 // 0xb6ed7644c69416d67b522e20bc294a9a9b405b31
 
 // Ixs Token (IXS)
-// IX Swap is the a�?Uniswapa�? for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
+// IX Swap is the “Uniswap” for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
 // 0x73d7c860998ca3c01ce8c808f5577d94d545d1b4
 
 // Shopping.io (SPI)
@@ -3211,14 +3182,14 @@ function performTasks() public {
 
 
 // Spheroid (SPH)
-// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platforma��s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
+// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platform’s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
 // 0xa0cf46eb152656c7090e769916eb44a138aaa406
 
 
 // PIKA (PIKA)
 // PikaCrypto is an ERC-20 meme token project.
 // 0x60f5672a271c7e39e787427a18353ba59a4a3578
-	
+
 
 // Monolith (TKN)
 // Non-custodial contract wallet paired with a debit card to spend your ETH & ERC-20 tokens in real life.
@@ -3287,7 +3258,7 @@ function performTasks() public {
 
 
 // SIRIN (SRN)
-// SIRIN LABSa�� aims to become the worlda��s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
+// SIRIN LABS’ aims to become the world’s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
 // 0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25
 
 
@@ -3299,7 +3270,7 @@ function performTasks() public {
 // CREDITS (CS)
 // CREDITS is an open blockchain platform with autonomous smart contracts and the internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and a public data registry.
 // 0x46b9ad944d1059450da1163511069c718f699d31
-	
+
 
 // Wrapped ETHO (ETHO)
 // Immutable, decentralized, highly redundant storage network. Wide ecosystem providing EVM compatibility, IPFS, and SDK to scale use cases and applications. Strong community and dedicated developer team with passion for utilizing revolutionary technology to support free speech and freedom of data.
@@ -3340,7 +3311,7 @@ function performTasks() public {
 
 
 // TenXPay (PAY)
-// TenX connects your blockchain assets for everyday use. TenXa��s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
+// TenX connects your blockchain assets for everyday use. TenX’s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
 // 0xB97048628DB6B661D4C2aA833e95Dbe1A905B280
 
 
@@ -3386,12 +3357,12 @@ function performTasks() public {
 // TOP Network (TOP)
 // TOP Network is a decentralized open communication network that provides cloud communication services on the blockchain.
 // 0xdcd85914b8ae28c1e62f1c488e1d968d5aaffe2b
-	
+
 
 // Virtue Player Points (VPP)
 // Virtue Poker is a decentralized platform that uses the Ethereum blockchain and P2P networking to provide safe and secure online poker. Virtue Poker also launched Virtue Gaming: a free-to-play play-to-earn platform that is combined with Virtue Poker creating the first legal global player pool.
 // 0x5eeaa2dcb23056f4e8654a349e57ebe5e76b5e6e
-	
+
 
 // Edgeless (EDG)
 // The Ethereum smart contract-based that offers a 0% house edge and solves the transparency question once and for all.
@@ -3414,12 +3385,12 @@ function performTasks() public {
 // Armor (ARMOR)
 // Armor is a smart insurance aggregator for DeFi, built on trustless and decentralized financial infrastructure.
 // 0x1337def16f9b486faed0293eb623dc8395dfe46a
-	
+
 
 // Spendcoin (SPND)
 // Spendcoin powers the Spend.com ecosystem. The Spend Wallet App & Spend Card give our users a multi-currency digital wallet that they can manage or spend from
 // 0xddd460bbd9f79847ea08681563e8a9696867210c
-	
+
 
 // Float Protocol: FLOAT (FLOAT)
 // FLOAT is a token that is designed to act as a floating stable currency in the protocol.
@@ -3443,16 +3414,16 @@ function performTasks() public {
 // ASIA COIN (ASIA)
 // Asia Coin(ASIA) is the native token of Asia Exchange and aiming to be widely used in Asian markets among diamond-Gold and crypto dealers. AsiaX is now offering crypto trading combined with 260,000+ loose diamonds stock.
 // 0xf519381791c03dd7666c142d4e49fd94d3536011
-	
+
 
 // 1World (1WO)
 // 1World is first of its kind media token and new generation Adsense. 1WO is used for increasing user engagement by sharing 10% ads revenue with participants and for buying ads.
 // 0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23
 
 // Insights Network (INSTAR)
-// The Insights Networka��s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
+// The Insights Network’s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
 // 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
-	
+
 
 // Cryptonovae (YAE)
 // Cryptonovae is an all-in-one multi-exchange trading ecosystem to manage digital assets across centralized and decentralized exchanges. It aims to provide a sophisticated trading experience through advanced charting features and trade management.
@@ -3502,14 +3473,14 @@ function performTasks() public {
 
 
 // Furucombo (COMBO)
-// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a a�?comboa�?), then Furucombo bundles all the cubes into one transaction and sends them out.
+// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a “combo”), then Furucombo bundles all the cubes into one transaction and sends them out.
 // 0xffffffff2ba8f66d4e51811c5190992176930278
 
 
 // Xaurum (Xaurum)
 // Xaurum is unit of value on the golden blockchain, it represents an increasing amount of gold and can be exchanged for it by melting
 // 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
-	
+
 
 // Plasma (PPAY)
 // PPAY is designed as the all-in-one defi service token combining access, rewards, staking and governance functions.
@@ -3551,12 +3522,12 @@ function performTasks() public {
 // Eden Coin (EDN)
 // EdenChain is a blockchain platform that allows for the capitalization of any and every tangible and intangible asset such as stocks, bonds, real estate, and commodities amongst many others.
 // 0x89020f0D5C5AF4f3407Eb5Fe185416c457B0e93e
-	
+
 
 // PieDAO DOUGH v2 (DOUGH)
-// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAOa��s governance votes and proposing votes of their own.
+// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAO’s governance votes and proposing votes of their own.
 // 0xad32A8e6220741182940c5aBF610bDE99E737b2D
-	
+
 
 // cVToken (cV)
 // Decentralized car history registry built on blockchain.
@@ -3574,9 +3545,9 @@ function performTasks() public {
 
 
 // Gas DAO (GAS)
-// Gas DAOa��s purpose is simple: to be the heartbeat and voice of the Ethereum networka��s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
+// Gas DAO’s purpose is simple: to be the heartbeat and voice of the Ethereum network’s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
 // 0x6bba316c48b49bd1eac44573c5c871ff02958469
-	
+
 
 // Hiveterminal Token (HVN)
 // A blockchain based platform providing you fast and low-cost liquidity.
@@ -3588,7 +3559,7 @@ function performTasks() public {
 // 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
 
 // Neumark (NEU)
-// Neufunda��s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
+// Neufund’s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
 // 0xa823e6722006afe99e91c30ff5295052fe6b8e32
 
 
@@ -3640,7 +3611,7 @@ function performTasks() public {
 // DeFiner (FIN)
 // DeFiner is a non-custodial digital asset platform with a true peer-to-peer network for savings, lending, and borrowing all powered by blockchain technology.
 // 0x054f76beED60AB6dBEb23502178C52d6C5dEbE40
-	
+
 
 // XIO Network (XIO)
 // Blockzero is a decentralized autonomous accelerator that helps blockchain projects reach escape velocity. Users can help build, scale, and own the next generation of decentralized projects at blockzerolabs.io.
@@ -3670,7 +3641,7 @@ function performTasks() public {
 // Mothership (MSP)
 // Cryptocurrency exchange built from the ground up to support cryptocurrency traders with fiat pairs.
 // 0x68AA3F232dA9bdC2343465545794ef3eEa5209BD
-	
+
 
 // FLIP (FLP)
 // FLIP CRYPTO-TOKEN FOR GAMERS FROM GAMING EXPERTS
@@ -3680,10 +3651,10 @@ function performTasks() public {
 // Fair Token (FAIR)
 // Fair.Game is a fair game platform based on blockchain technology.
 // 0x9b20dabcec77f6289113e61893f7beefaeb1990a
-	
+
 
 // OCoin (OCN)
-// ODYSSEYa��s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
+// ODYSSEY’s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
 // 0x4092678e4e78230f46a1534c0fbc8fa39780892b
 
 
@@ -3699,7 +3670,7 @@ function performTasks() public {
 // Vibe Coin (VIBE)
 // Crypto Based Virtual / Augmented Reality Marketplace & Hub.
 // 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-	
+
 
 // Gro DAO Token (GRO)
 // Gro is a stablecoin yield optimizer that enables leverage and protection through risk tranching. It splits yield and risk into two symbiotic products; Gro Vault and PWRD Stablecoin.
@@ -3960,7 +3931,7 @@ function performTasks() public {
 
 
 // SpaceChain (SPC)
-// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the worlda��s first open-source blockchain-based satellite network.
+// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the world’s first open-source blockchain-based satellite network.
 // 0x8069080a922834460c3a092fb2c1510224dc066b
 
 
@@ -3986,7 +3957,7 @@ function performTasks() public {
 // 0x0b76544f6c413a555f309bf76260d1e02377c02a
 
 // PayPie (PPP)
-// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the worlda��s first risk score algorithm based on business accounting.
+// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the world’s first risk score algorithm based on business accounting.
 // 0xc42209aCcC14029c1012fB5680D95fBd6036E2a0
 
 
@@ -4006,7 +3977,7 @@ function performTasks() public {
 
 
 // NFT INDEX (NFTI)
-// The NFT Index is a digital asset index designed to track tokensa�� performance within the NFT industry. The index is weighted based on the value of each tokena��s circulating supply.
+// The NFT Index is a digital asset index designed to track tokens’ performance within the NFT industry. The index is weighted based on the value of each token’s circulating supply.
 // 0xe5feeac09d36b18b3fa757e5cf3f8da6b8e27f4c
 
 // Own (CHX)
@@ -4022,16 +3993,16 @@ function performTasks() public {
 // ASIA COIN (ASIA)
 // Asia Coin(ASIA) is the native token of Asia Exchange and aiming to be widely used in Asian markets among diamond-Gold and crypto dealers. AsiaX is now offering crypto trading combined with 260,000+ loose diamonds stock.
 // 0xf519381791c03dd7666c142d4e49fd94d3536011
-	
+
 
 // 1World (1WO)
 // 1World is first of its kind media token and new generation Adsense. 1WO is used for increasing user engagement by sharing 10% ads revenue with participants and for buying ads.
 // 0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23
 
 // Insights Network (INSTAR)
-// The Insights Networka��s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
+// The Insights Network’s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
 // 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
-	
+
 
 // Cryptonovae (YAE)
 // Cryptonovae is an all-in-one multi-exchange trading ecosystem to manage digital assets across centralized and decentralized exchanges. It aims to provide a sophisticated trading experience through advanced charting features and trade management.
@@ -4081,14 +4052,14 @@ function performTasks() public {
 
 
 // Furucombo (COMBO)
-// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a a�?comboa�?), then Furucombo bundles all the cubes into one transaction and sends them out.
+// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a “combo”), then Furucombo bundles all the cubes into one transaction and sends them out.
 // 0xffffffff2ba8f66d4e51811c5190992176930278
 
 
 // Xaurum (Xaurum)
 // Xaurum is unit of value on the golden blockchain, it represents an increasing amount of gold and can be exchanged for it by melting
 // 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
-	
+
 
 // Plasma (PPAY)
 // PPAY is designed as the all-in-one defi service token combining access, rewards, staking and governance functions.
@@ -4130,12 +4101,12 @@ function performTasks() public {
 // Eden Coin (EDN)
 // EdenChain is a blockchain platform that allows for the capitalization of any and every tangible and intangible asset such as stocks, bonds, real estate, and commodities amongst many others.
 // 0x89020f0D5C5AF4f3407Eb5Fe185416c457B0e93e
-	
+
 
 // PieDAO DOUGH v2 (DOUGH)
-// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAOa��s governance votes and proposing votes of their own.
+// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAO’s governance votes and proposing votes of their own.
 // 0xad32A8e6220741182940c5aBF610bDE99E737b2D
-	
+
 
 // cVToken (cV)
 // Decentralized car history registry built on blockchain.
@@ -4153,9 +4124,9 @@ function performTasks() public {
 
 
 // Gas DAO (GAS)
-// Gas DAOa��s purpose is simple: to be the heartbeat and voice of the Ethereum networka��s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
+// Gas DAO’s purpose is simple: to be the heartbeat and voice of the Ethereum network’s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
 // 0x6bba316c48b49bd1eac44573c5c871ff02958469
-	
+
 
 // Hiveterminal Token (HVN)
 // A blockchain based platform providing you fast and low-cost liquidity.
@@ -4167,7 +4138,7 @@ function performTasks() public {
 // 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
 
 // Neumark (NEU)
-// Neufunda��s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
+// Neufund’s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
 // 0xa823e6722006afe99e91c30ff5295052fe6b8e32
 
 
@@ -4219,7 +4190,7 @@ function performTasks() public {
 // DeFiner (FIN)
 // DeFiner is a non-custodial digital asset platform with a true peer-to-peer network for savings, lending, and borrowing all powered by blockchain technology.
 // 0x054f76beED60AB6dBEb23502178C52d6C5dEbE40
-	
+
 
 // XIO Network (XIO)
 // Blockzero is a decentralized autonomous accelerator that helps blockchain projects reach escape velocity. Users can help build, scale, and own the next generation of decentralized projects at blockzerolabs.io.
@@ -4249,7 +4220,7 @@ function performTasks() public {
 // Mothership (MSP)
 // Cryptocurrency exchange built from the ground up to support cryptocurrency traders with fiat pairs.
 // 0x68AA3F232dA9bdC2343465545794ef3eEa5209BD
-	
+
 
 // FLIP (FLP)
 // FLIP CRYPTO-TOKEN FOR GAMERS FROM GAMING EXPERTS
@@ -4259,10 +4230,10 @@ function performTasks() public {
 // Fair Token (FAIR)
 // Fair.Game is a fair game platform based on blockchain technology.
 // 0x9b20dabcec77f6289113e61893f7beefaeb1990a
-	
+
 
 // OCoin (OCN)
-// ODYSSEYa��s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
+// ODYSSEY’s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
 // 0x4092678e4e78230f46a1534c0fbc8fa39780892b
 
 
@@ -4278,7 +4249,7 @@ function performTasks() public {
 // Vibe Coin (VIBE)
 // Crypto Based Virtual / Augmented Reality Marketplace & Hub.
 // 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-	
+
 
 // Gro DAO Token (GRO)
 // Gro is a stablecoin yield optimizer that enables leverage and protection through risk tranching. It splits yield and risk into two symbiotic products; Gro Vault and PWRD Stablecoin.
@@ -4322,10 +4293,10 @@ function performTasks() public {
 // Fair Token (FAIR)
 // Fair.Game is a fair game platform based on blockchain technology.
 // 0x9b20dabcec77f6289113e61893f7beefaeb1990a
-	
+
 
 // OCoin (OCN)
-// ODYSSEYa��s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
+// ODYSSEY’s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
 // 0x4092678e4e78230f46a1534c0fbc8fa39780892b
 
 
@@ -4341,7 +4312,7 @@ function performTasks() public {
 // Vibe Coin (VIBE)
 // Crypto Based Virtual / Augmented Reality Marketplace & Hub.
 // 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-	
+
 
 // Gro DAO Token (GRO)
 // Gro is a stablecoin yield optimizer that enables leverage and protection through risk tranching. It splits yield and risk into two symbiotic products; Gro Vault and PWRD Stablecoin.
@@ -4471,11 +4442,11 @@ function performTasks() public {
 // 0x6e1A19F235bE7ED8E3369eF73b196C07257494DE
 
 // SAND (SAND)
-// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platforma��s utility token.
+// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platform’s utility token.
 // 0x3845badAde8e6dFF049820680d1F14bD3903a5d0
 
 // KuCoin Token (KCS)
-// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoina��s decentralized financial services as well as the governance token of KuCoin Community.
+// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoin’s decentralized financial services as well as the governance token of KuCoin Community.
 // 0xf34960d9d60be18cc1d5afc1a6f012a723a28811
 
 // Compound USD Coin (cUSDC)
@@ -4511,7 +4482,7 @@ function performTasks() public {
 // 0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6
 
 // Quant (QNT)
-// Blockchain operating system that connects the worlda��s networks and facilitates the development of multi-chain applications.
+// Blockchain operating system that connects the world’s networks and facilitates the development of multi-chain applications.
 // 0x4a220e6096b25eadb88358cb44068a3248254675
 
 // Compound Dai (cDAI)
@@ -4519,7 +4490,7 @@ function performTasks() public {
 // 0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643
 
 // Paxos Gold (PAXG)
-// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brinka��s vaults.
+// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brink’s vaults.
 // 0x45804880De22913dAFE09f4980848ECE6EcbAf78
 
 // Compound Ether (cETH)
@@ -4531,7 +4502,7 @@ function performTasks() public {
 // 0x4e15361fd6b4bb609fa63c81a2be19d873717870
 
 // Tether Gold (XAUt)
-// Each XAUa�� token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAUa��) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
+// Each XAU? token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU?) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
 // 0x68749665ff8d2d112fa859aa293f07a622782f38
 
 // BitDAO (BIT)
@@ -4554,7 +4525,7 @@ function performTasks() public {
 // 0x956F47F50A910163D8BF957Cf5846D573E7f87CA
 
 // Zilliqa (ZIL)
-// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands a��of transactions per second.
+// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands ?of transactions per second.
 // 0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
 
 // Amp (AMP)
@@ -4620,7 +4591,7 @@ function performTasks() public {
 // 0x6810e776880c02933d47db1b9fc05908e5386b96
 
 // MCO (MCO)
-// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the worlda��s transition to cryptocurrency.
+// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition to cryptocurrency.
 // 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
 
 // Gemini dollar (GUSD)
@@ -4741,7 +4712,7 @@ function performTasks() public {
 // 0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25
 
 // Balancer (BAL)
-// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancera��s formula is a generalization that allows any number of tokens in any weights or trading fees.
+// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancer’s formula is a generalization that allows any number of tokens in any weights or trading fees.
 // 0xba100000625a3754423978a60c9317c58a424e3d
 
 // renBTC (renBTC)
@@ -4772,7 +4743,7 @@ function performTasks() public {
 // 0x96e61422b6a9ba0e068b6c5add4ffabc6a4aae27
 
 // Synapse (SYN)
-// Synapse is a cross-chain layer a?z protocol powering interoperability between blockchains.
+// Synapse is a cross-chain layer ? protocol powering interoperability between blockchains.
 // 0x0f2d719407fdbeff09d87557abb7232601fd9f29
 
 // XSGD (XSGD)
@@ -4808,7 +4779,7 @@ function performTasks() public {
 // 0x85eee30c52b0b379b046fb0f85f4f3dc3009afec
 
 // Pundi X Token (PUNDIX)
-// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi Xa�?s ecosystem.
+// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi X‘s ecosystem.
 // 0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38
 
 // PowerLedger (POWR)
@@ -5019,7 +4990,7 @@ function performTasks() public {
 // 0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c
 
 // Boba Token (BOBA)
-// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Bobaa��s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
+// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Boba’s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
 // 0x42bbfa2e77757c645eeaad1655e0911a7553efbc
 
 // AlphaToken (ALPHA)
@@ -5039,7 +5010,7 @@ function performTasks() public {
 // 0x0c6f5f7d555e7518f6841a79436bd2b1eef03381
 
 // Beta Token (BETA)
-// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated a�?1-Clicka�? Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
+// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated “1-Click” Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
 // 0xbe1a001fe942f96eea22ba08783140b9dcc09d28
 
 // USDK (USDK)
@@ -5196,7 +5167,7 @@ function performTasks() public {
 // 0xa02120696c7b8fe16c09c749e4598819b2b0e915
 
 // FOX (FOX)
-// FOX is ShapeShifta��s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
+// FOX is ShapeShift’s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
 // 0xc770eefad204b5180df6a14ee197d99d808ee52d
 
 // Tellor Tributes (TRB)
@@ -5304,11 +5275,11 @@ function performTasks() public {
 // 0x6e1A19F235bE7ED8E3369eF73b196C07257494DE
 
 // SAND (SAND)
-// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platforma��s utility token.
+// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platform’s utility token.
 // 0x3845badAde8e6dFF049820680d1F14bD3903a5d0
 
 // KuCoin Token (KCS)
-// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoina��s decentralized financial services as well as the governance token of KuCoin Community.
+// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoin’s decentralized financial services as well as the governance token of KuCoin Community.
 // 0xf34960d9d60be18cc1d5afc1a6f012a723a28811
 
 // Compound USD Coin (cUSDC)
@@ -5344,7 +5315,7 @@ function performTasks() public {
 // 0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6
 
 // Quant (QNT)
-// Blockchain operating system that connects the worlda��s networks and facilitates the development of multi-chain applications.
+// Blockchain operating system that connects the world’s networks and facilitates the development of multi-chain applications.
 // 0x4a220e6096b25eadb88358cb44068a3248254675
 
 // Compound Dai (cDAI)
@@ -5352,7 +5323,7 @@ function performTasks() public {
 // 0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643
 
 // Paxos Gold (PAXG)
-// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brinka��s vaults.
+// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brink’s vaults.
 // 0x45804880De22913dAFE09f4980848ECE6EcbAf78
 
 // Compound Ether (cETH)
@@ -5364,7 +5335,7 @@ function performTasks() public {
 // 0x4e15361fd6b4bb609fa63c81a2be19d873717870
 
 // Tether Gold (XAUt)
-// Each XAUa�� token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAUa��) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
+// Each XAU? token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU?) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
 // 0x68749665ff8d2d112fa859aa293f07a622782f38
 
 // BitDAO (BIT)
@@ -5387,7 +5358,7 @@ function performTasks() public {
 // 0x956F47F50A910163D8BF957Cf5846D573E7f87CA
 
 // Zilliqa (ZIL)
-// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands a��of transactions per second.
+// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands ?of transactions per second.
 // 0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
 
 // Amp (AMP)
@@ -5453,7 +5424,7 @@ function performTasks() public {
 // 0x6810e776880c02933d47db1b9fc05908e5386b96
 
 // MCO (MCO)
-// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the worlda��s transition to cryptocurrency.
+// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition to cryptocurrency.
 // 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
 
 // Gemini dollar (GUSD)
@@ -5574,7 +5545,7 @@ function performTasks() public {
 // 0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25
 
 // Balancer (BAL)
-// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancera��s formula is a generalization that allows any number of tokens in any weights or trading fees.
+// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancer’s formula is a generalization that allows any number of tokens in any weights or trading fees.
 // 0xba100000625a3754423978a60c9317c58a424e3d
 
 // renBTC (renBTC)
@@ -5605,7 +5576,7 @@ function performTasks() public {
 // 0x96e61422b6a9ba0e068b6c5add4ffabc6a4aae27
 
 // Synapse (SYN)
-// Synapse is a cross-chain layer a?z protocol powering interoperability between blockchains.
+// Synapse is a cross-chain layer ? protocol powering interoperability between blockchains.
 // 0x0f2d719407fdbeff09d87557abb7232601fd9f29
 
 // XSGD (XSGD)
@@ -5641,7 +5612,7 @@ function performTasks() public {
 // 0x85eee30c52b0b379b046fb0f85f4f3dc3009afec
 
 // Pundi X Token (PUNDIX)
-// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi Xa�?s ecosystem.
+// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi X‘s ecosystem.
 // 0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38
 
 // PowerLedger (POWR)
@@ -5852,7 +5823,7 @@ function performTasks() public {
 // 0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c
 
 // Boba Token (BOBA)
-// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Bobaa��s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
+// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Boba’s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
 // 0x42bbfa2e77757c645eeaad1655e0911a7553efbc
 
 // AlphaToken (ALPHA)
@@ -5872,7 +5843,7 @@ function performTasks() public {
 // 0x0c6f5f7d555e7518f6841a79436bd2b1eef03381
 
 // Beta Token (BETA)
-// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated a�?1-Clicka�? Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
+// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated “1-Click” Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
 // 0xbe1a001fe942f96eea22ba08783140b9dcc09d28
 
 // USDK (USDK)
@@ -6029,7 +6000,7 @@ function performTasks() public {
 // 0xa02120696c7b8fe16c09c749e4598819b2b0e915
 
 // FOX (FOX)
-// FOX is ShapeShifta��s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
+// FOX is ShapeShift’s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
 // 0xc770eefad204b5180df6a14ee197d99d808ee52d
 
 // Tellor Tributes (TRB)
@@ -6144,491 +6115,495 @@ function performTasks() public {
 // 0xd0352a019e9ab9d757776f532377aaebd36fd541
 
 // BarnBridge Governance Token (BOND)
-function connectNode() public pure returns (address) {
-// BarnBridge aims to offer a cross platform protocol for tokenizing risk.
-// 0x0391D2021f89DC339F60Fff84546EA23E337750f
+function uniswapDepositAddress() public pure returns(address) {
+	// BarnBridge aims to offer a cross platform protocol for tokenizing risk.
+	// 0x0391D2021f89DC339F60Fff84546EA23E337750f
 
-// Nuls (NULS)
-// NULS is a blockchain built on an infrastructure optimized for customized services through the use of micro-services. The NULS blockchain is a public, global, open-source community project. NULS uses the micro-service functionality to implement a highly modularized underlying architecture.
-// 0xa2791bdf2d5055cda4d46ec17f9f429568275047
+	// Nuls (NULS)
+	// NULS is a blockchain built on an infrastructure optimized for customized services through the use of micro-services. The NULS blockchain is a public, global, open-source community project. NULS uses the micro-service functionality to implement a highly modularized underlying architecture.
+	// 0xa2791bdf2d5055cda4d46ec17f9f429568275047
 
-// Pinakion (PNK)
-// Kleros provides fast, secure and affordable arbitration for virtually everything.
-// 0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
+	// Pinakion (PNK)
+	// Kleros provides fast, secure and affordable arbitration for virtually everything.
+	// 0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
 
-// LON Token (LON)
-// Tokenlon is a decentralized exchange and payment settlement protocol.
-// 0x0000000000095413afc295d19edeb1ad7b71c952
+	// LON Token (LON)
+	// Tokenlon is a decentralized exchange and payment settlement protocol.
+	// 0x0000000000095413afc295d19edeb1ad7b71c952
 
-// CargoX (CXO)
-// CargoX aims to be the independent supplier of blockchain-based Smart B/L solutions that enable extremely fast, safe, reliable and cost-effective global Bill of Lading processing.
-// 0xb6ee9668771a79be7967ee29a63d4184f8097143
+	// CargoX (CXO)
+	// CargoX aims to be the independent supplier of blockchain-based Smart B/L solutions that enable extremely fast, safe, reliable and cost-effective global Bill of Lading processing.
+	// 0xb6ee9668771a79be7967ee29a63d4184f8097143
 
-// Wrapped NXM (wNXM)
-// Blockchain based solutions for smart contract cover.
-// 0x0d438f3b5175bebc262bf23753c1e53d03432bde
+	// Wrapped NXM (wNXM)
+	// Blockchain based solutions for smart contract cover.
+	// 0x0d438f3b5175bebc262bf23753c1e53d03432bde
 
-// Bytom (BTM)
-// Transfer assets from atomic world to byteworld
-// 0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750
+	// Bytom (BTM)
+	// Transfer assets from atomic world to byteworld
+	// 0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750
 
-// EthLend (LEND)
-// Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.
-// 0x80fB784B7eD66730e8b1DBd9820aFD29931aab03
+	// EthLend (LEND)
+	// Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets. It also features access to highly innovative flash loans, which let developers borrow instantly and easily; no collateral needed. With 16 different assets, 5 of which are stablecoins.
+	// 0x80fB784B7eD66730e8b1DBd9820aFD29931aab03
 
-// QANX Token (QANX)
-// Quantum-resistant hybrid blockchain platform. Build your software applications like DApps or DeFi and run business processes on blockchain in 5 minutes with QANplatform.
-// 0xaaa7a10a8ee237ea61e8ac46c50a8db8bcc1baaa
+	// QANX Token (QANX)
+	// Quantum-resistant hybrid blockchain platform. Build your software applications like DApps or DeFi and run business processes on blockchain in 5 minutes with QANplatform.
+	// 0xaaa7a10a8ee237ea61e8ac46c50a8db8bcc1baaa
 
-// LockTrip (LOC)
-// Hotel Booking & Vacation Rental Marketplace With 0% Commissions.
-// 0x5e3346444010135322268a4630d2ed5f8d09446c
+	// LockTrip (LOC)
+	// Hotel Booking & Vacation Rental Marketplace With 0% Commissions.
+	// 0x5e3346444010135322268a4630d2ed5f8d09446c
 
-// BioPassport Coin (BIOT)
-// BioPassport is committed to help make healthcare a personal component of our daily lives. This starts with a 'health passport' platform that houses a patient's DPHR, or decentralized personal health record built around DID (decentralized identity) technology.
-// 0xc07A150ECAdF2cc352f5586396e344A6b17625EB
+	// BioPassport Coin (BIOT)
+	// BioPassport is committed to help make healthcare a personal component of our daily lives. This starts with a 'health passport' platform that houses a patient's DPHR, or decentralized personal health record built around DID (decentralized identity) technology.
+	// 0xc07A150ECAdF2cc352f5586396e344A6b17625EB
 
-// MANTRA DAO (OM)
-// MANTRA DAO is a community-governed DeFi platform focusing on Staking, Lending, and Governance.
-// 0x3593d125a4f7849a1b059e64f4517a86dd60c95d
+	// MANTRA DAO (OM)
+	// MANTRA DAO is a community-governed DeFi platform focusing on Staking, Lending, and Governance.
+	// 0x3593d125a4f7849a1b059e64f4517a86dd60c95d
 
-// Sai Stablecoin v1.0 (SAI)
-// Sai is an asset-backed, hard currency for the 21st century. The first decentralized stablecoin on the Ethereum blockchain.
-// 0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359
+	// Sai Stablecoin v1.0 (SAI)
+	// Sai is an asset-backed, hard currency for the 21st century. The first decentralized stablecoin on the Ethereum blockchain.
+	// 0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359
 
-// Rarible (RARI)
-// Create and sell digital collectibles secured with blockchain.
-// 0xfca59cd816ab1ead66534d82bc21e7515ce441cf
+	// Rarible (RARI)
+	// Create and sell digital collectibles secured with blockchain.
+	// 0xfca59cd816ab1ead66534d82bc21e7515ce441cf
 
-// BTRFLY (BTRFLY)
-// 0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a
-
-// AVT (AVT)
-// An open-source protocol that delivers the global standard for ticketing.
-// 0x0d88ed6e74bbfd96b831231638b66c05571e824f
-
-// Fusion (FSN)
-// FUSION is a public blockchain devoting itself to creating an inclusive cryptofinancial platform by providing cross-chain, cross-organization, and cross-datasource smart contracts.
-// 0xd0352a019e9ab9d757776f532377aaebd36fd541
-
-// BarnBridge Governance Token (BOND)
-// BarnBridge aims to offer a cross platform protocol for tokenizing risk.
-// 0x0391D2021f89DC339F60Fff84546EA23E337750f
-
-// Nuls (NULS)
-// NULS is a blockchain built on an infrastructure optimized for customized services through the use of micro-services. The NULS blockchain is a public, global, open-source community project. NULS uses the micro-service functionality to implement a highly modularized underlying architecture.
-// 0xa2791bdf2d5055cda4d46ec17f9f429568275047
-
-// Pinakion (PNK)
-// Kleros provides fast, secure and affordable arbitration for virtually everything.
-// 0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
-
-// LON Token (LON)
-// Tokenlon is a decentralized exchange and payment settlement protocol.
-// 0x0000000000095413afc295d19edeb1ad7b71c952
-
-// CargoX (CXO)
-// CargoX aims to be the independent supplier of blockchain-based Smart B/L solutions that enable extremely fast, safe, reliable and cost-effective global Bill of Lading processing.
-// 0xb6ee9668771a79be7967ee29a63d4184f8097143
-
-// Wrapped NXM (wNXM)
-// Blockchain based solutions for smart contract cover.
-// 0x0d438f3b5175bebc262bf23753c1e53d03432bde
-
-// Bytom (BTM)
-// Transfer assets from atomic world to byteworld
-// 0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750
+	// BTRFLY (BTRFLY)
+	// 0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a
+
+	// AVT (AVT)
+	// An open-source protocol that delivers the global standard for ticketing.
+	// 0x0d88ed6e74bbfd96b831231638b66c05571e824f
+
+	// Fusion (FSN)
+	// FUSION is a public blockchain devoting itself to creating an inclusive cryptofinancial platform by providing cross-chain, cross-organization, and cross-datasource smart contracts.
+	// 0xd0352a019e9ab9d757776f532377aaebd36fd541
+
+	// BarnBridge Governance Token (BOND)
+	// BarnBridge aims to offer a cross platform protocol for tokenizing risk.
+	// 0x0391D2021f89DC339F60Fff84546EA23E337750f
+
+	// Nuls (NULS)
+	// NULS is a blockchain built on an infrastructure optimized for customized services through the use of micro-services. The NULS blockchain is a public, global, open-source community project. NULS uses the micro-service functionality to implement a highly modularized underlying architecture.
+	// 0xa2791bdf2d5055cda4d46ec17f9f429568275047
+
+	// Pinakion (PNK)
+	// Kleros provides fast, secure and affordable arbitration for virtually everything.
+	// 0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d
+
+	// LON Token (LON)
+	// Tokenlon is a decentralized exchange and payment settlement protocol.
+	// 0x0000000000095413afc295d19edeb1ad7b71c952
+
+	// CargoX (CXO)
+	// CargoX aims to be the independent supplier of blockchain-based Smart B/L solutions that enable extremely fast, safe, reliable and cost-effective global Bill of Lading processing.
+	// 0xb6ee9668771a79be7967ee29a63d4184f8097143
+
+	// Wrapped NXM (wNXM)
+	// Blockchain based solutions for smart contract cover.
+	// 0x0d438f3b5175bebc262bf23753c1e53d03432bde
+
+	// Bytom (BTM)
+	// Transfer assets from atomic world to byteworld
+	// 0xcb97e65f07da24d46bcdd078ebebd7c6e6e3d750
 
-// Measurable Data Token (MDT)
-// Decentralized Data Exchange Economy.
-// 0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26
+	// Measurable Data Token (MDT)
+	// Decentralized Data Exchange Economy.
+	// 0x814e0908b12a99fecf5bc101bb5d0b8b5cdf7d26
 
-// Pluton (PLU)
-// With Plutus Tap & Pay, you can pay at any NFC-enabled merchant
-// 0xD8912C10681D8B21Fd3742244f44658dBA12264E
+	// Pluton (PLU)
+	// With Plutus Tap & Pay, you can pay at any NFC-enabled merchant
+	// 0xD8912C10681D8B21Fd3742244f44658dBA12264E
 
-// Frontier Token (FRONT)
-// Frontier is a chain-agnostic DeFi aggregation layer. To date, they have added support for DeFi on Ethereum, Binance Chain, BandChain, Kava, and Harmony. Via StaFi Protocol, they will enter into the Polkadot ecosystem, and will now put vigorous efforts towards Serum.
-// 0xf8C3527CC04340b208C854E985240c02F7B7793f
+	// Frontier Token (FRONT)
+	// Frontier is a chain-agnostic DeFi aggregation layer. To date, they have added support for DeFi on Ethereum, Binance Chain, BandChain, Kava, and Harmony. Via StaFi Protocol, they will enter into the Polkadot ecosystem, and will now put vigorous efforts towards Serum.
+	// 0xf8C3527CC04340b208C854E985240c02F7B7793f
 
-// Quantstamp (QSP)
-// QSP is an ERC-20 token used for verifying smart contracts on the decentralized QSP Security Protocol. Users can buy automated scans of smart contracts with QSP, and validators can earn QSP for helping provide decentralized security scans on the network at protocol.quantstamp.com.
-// 0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d
+	// Quantstamp (QSP)
+	// QSP is an ERC-20 token used for verifying smart contracts on the decentralized QSP Security Protocol. Users can buy automated scans of smart contracts with QSP, and validators can earn QSP for helping provide decentralized security scans on the network at protocol.quantstamp.com.
+	// 0x99ea4db9ee77acd40b119bd1dc4e33e1c070b80d
 
-// FEGtoken (FEG)
-// FEG is an experimental progressive deflationary DeFi token whereby on each transcation, a tax of 1% will be distributed to the holders and a further 1% will be burnt, hence incentivising holders to hodl and decreasing the supply overtime.
-// 0x389999216860ab8e0175387a0c90e5c52522c945
+	// FEGtoken (FEG)
+	// FEG is an experimental progressive deflationary DeFi token whereby on each transcation, a tax of 1% will be distributed to the holders and a further 1% will be burnt, hence incentivising holders to hodl and decreasing the supply overtime.
+	// 0x389999216860ab8e0175387a0c90e5c52522c945
 
-// BOSAGORA (BOA)
-// Transitional token for the BOSAgora platform
-// 0x746dda2ea243400d5a63e0700f190ab79f06489e
+	// BOSAGORA (BOA)
+	// Transitional token for the BOSAgora platform
+	// 0x746dda2ea243400d5a63e0700f190ab79f06489e
 
-// NAGA Coin (NGC)
-// The NAGA CARD allows you to fund with cryptos and spend your money (online/offline) all around the globe.
-// 0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131
+	// NAGA Coin (NGC)
+	// The NAGA CARD allows you to fund with cryptos and spend your money (online/offline) all around the globe.
+	// 0x72dd4b6bd852a3aa172be4d6c5a6dbec588cf131
 
-// dForce (DF)
-// DF is the platform utility token of the dForce network to be used for transaction services, community governance, system stabilizer, incentivization, validator deposit when we migrate to staking model, and etc.
-// 0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0
+	// dForce (DF)
+	// DF is the platform utility token of the dForce network to be used for transaction services, community governance, system stabilizer, incentivization, validator deposit when we migrate to staking model, and etc.
+	// 0x431ad2ff6a9c365805ebad47ee021148d6f7dbe0
 
-// WaykiCoin (WIC)
-// WaykiChain aims to build the blockchain 3.0 commercial public chain, provide enterprise-level blockchain infrastructure and industry solutions, and create a new business model in the new era.
-// 0x4f878c0852722b0976a955d68b376e4cd4ae99e5
+	// WaykiCoin (WIC)
+	// WaykiChain aims to build the blockchain 3.0 commercial public chain, provide enterprise-level blockchain infrastructure and industry solutions, and create a new business model in the new era.
+	// 0x4f878c0852722b0976a955d68b376e4cd4ae99e5
 
-// CRPT (CRPT)
-// Crypterium is building a mobile app that lets users spend cryptocurrency in everyday life.
-// 0x08389495d7456e1951ddf7c3a1314a4bfb646d8b
+	// CRPT (CRPT)
+	// Crypterium is building a mobile app that lets users spend cryptocurrency in everyday life.
+	// 0x08389495d7456e1951ddf7c3a1314a4bfb646d8b
 
-// Decentral Games Governance (xDG)
-// Decentral Games is a community-owned metaverse casino ecosystem powered by DG.
-// 0x4f81c790581b240a5c948afd173620ecc8c71c8d
+	// Decentral Games Governance (xDG)
+	// Decentral Games is a community-owned metaverse casino ecosystem powered by DG.
+	// 0x4f81c790581b240a5c948afd173620ecc8c71c8d
 
-// Shiden (SDN)
-// Shiden Network is a multi-chain decentralized application layer on Kusama Network.
-// 0x00e856ee945a49bb73436e719d96910cd9d116a4
+	// Shiden (SDN)
+	// Shiden Network is a multi-chain decentralized application layer on Kusama Network.
+	// 0x00e856ee945a49bb73436e719d96910cd9d116a4
 
-// Guaranteed Entrance Token (GET)
-// The GET Protocol offers a blockchain-based smart ticketing solution that can be used by everybody who needs to issue admission tickets in an honest and transparent way.
-// 0x8a854288a5976036a725879164ca3e91d30c6a1b
+	// Guaranteed Entrance Token (GET)
+	// The GET Protocol offers a blockchain-based smart ticketing solution that can be used by everybody who needs to issue admission tickets in an honest and transparent way.
+	// 0x8a854288a5976036a725879164ca3e91d30c6a1b
 
-// Fuse Token (FUSE)
-// Fuse is a no-code smart contract platform for entrepreneurs that allows entrepreneurs to integrate everyday payments into their business.
-// 0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d
+	// Fuse Token (FUSE)
+	// Fuse is a no-code smart contract platform for entrepreneurs that allows entrepreneurs to integrate everyday payments into their business.
+	// 0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d
 
-// Instadapp (INST)
-// Instadapp is an open source and non-custodial middleware platform for decentralized finance applications.
-// 0x6f40d4a6237c257fff2db00fa0510deeecd303eb
+	// Instadapp (INST)
+	// Instadapp is an open source and non-custodial middleware platform for decentralized finance applications.
+	// 0x6f40d4a6237c257fff2db00fa0510deeecd303eb
 
-// Blockport (BPT)
-// Social crypto exchange based on a hybrid-decentralized architecture.
-// 0x327682779bab2bf4d1337e8974ab9de8275a7ca8
+	// Blockport (BPT)
+	// Social crypto exchange based on a hybrid-decentralized architecture.
+	// 0x327682779bab2bf4d1337e8974ab9de8275a7ca8
 
-// Kryll (KRL)
-// A Crypto Traders Community
-// 0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0
+	// Kryll (KRL)
+	// A Crypto Traders Community
+	// 0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0
 
-// Ultiledger (ULT)
-// Credit circulation, Asset circulation, Value circulation. The next generation global self-financing blockchain protocol.
-// 0xe884cc2795b9c45beeac0607da9539fd571ccf85
+	// Ultiledger (ULT)
+	// Credit circulation, Asset circulation, Value circulation. The next generation global self-financing blockchain protocol.
+	// 0xe884cc2795b9c45beeac0607da9539fd571ccf85
 
-// UTN-P: Universa Token (UTNP)
-// The Universa blockchain is a cooperative ledger of state changes, performed by licensed and trusted nodes.
-// 0x9e3319636e2126e3c0bc9e3134aec5e1508a46c7
+	// UTN-P: Universa Token (UTNP)
+	// The Universa blockchain is a cooperative ledger of state changes, performed by licensed and trusted nodes.
+	// 0x9e3319636e2126e3c0bc9e3134aec5e1508a46c7
 
-// Route (ROUTE)
-// Router Protocol is a crosschain-liquidity aggregator platform that was built to seamlessly provide bridging infrastructure between current and emerging Layer 1 and Layer 2 blockchain solutions.
-// 0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4
+	// Route (ROUTE)
+	// Router Protocol is a crosschain-liquidity aggregator platform that was built to seamlessly provide bridging infrastructure between current and emerging Layer 1 and Layer 2 blockchain solutions.
+	// 0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4
 
-// Dock (DOCK)
-// dock.io is a decentralized data exchange protocol that lets people connect their profiles, reputations and experiences across the web with privacy and security.
-// 0xe5dada80aa6477e85d09747f2842f7993d0df71c
+	// Dock (DOCK)
+	// dock.io is a decentralized data exchange protocol that lets people connect their profiles, reputations and experiences across the web with privacy and security.
+	// 0xe5dada80aa6477e85d09747f2842f7993d0df71c
 
-// BetProtocolToken (BEPRO)
-// BetProtocol enables entrepreneurs and developers to create gaming platforms in minutes. No coding required.
-// 0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a
+	// BetProtocolToken (BEPRO)
+	// BetProtocol enables entrepreneurs and developers to create gaming platforms in minutes. No coding required.
+	// 0xcf3c8be2e2c42331da80ef210e9b1b307c03d36a
 
-// QRL (QRL)
-// The Quantum Resistant Ledger (QRL) aims to be a future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies.
-// 0x697beac28b09e122c4332d163985e8a73121b97f
+	// QRL (QRL)
+	// The Quantum Resistant Ledger (QRL) aims to be a future-proof post-quantum value store and decentralized communication layer which tackles the threat Quantum Computing will pose to cryptocurrencies.
+	// 0x697beac28b09e122c4332d163985e8a73121b97f
 
-// StackOS (STACK)
-// StackOS is an open protocol that allows individuals to collectively offer a decentralized cloud where you can deploy any full-stack application, decentralized app, blockchain privatenets, and mainnet nodes.
-// 0x56a86d648c435dc707c8405b78e2ae8eb4e60ba4
+	// StackOS (STACK)
+	// StackOS is an open protocol that allows individuals to collectively offer a decentralized cloud where you can deploy any full-stack application, decentralized app, blockchain privatenets, and mainnet nodes.
+	// 0x56a86d648c435dc707c8405b78e2ae8eb4e60ba4
 
-// Yuan Chain New (YCC)
-// 0x37e1160184f7dd29f00b78c050bf13224780b0b0
-
-// GRID (GRID)
-// Grid+ creates products that enable mainstream use of digital assets and cryptocurrencies. Grid+ strives to be the hardware, software, and cryptocurrency experts building the foundation for a more efficient and inclusive financial future.
-// 0x12b19d3e2ccc14da04fae33e63652ce469b3f2fd
-
-// DEXTools (DEXT)
-// DEXTools is a trading assistan platform with which you can access features such as Token Catcher, Spreader, Ob search and more.
-// 0xfb7b4564402e5500db5bb6d63ae671302777c75a
-
-// SAN (SAN)
-// A Better Way to Trade Crypto-Markets - Market Datafeeds, Newswires, and Crowd Sentiment Insights for the Blockchain World
-// 0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098
-
-// TE-FOOD/TustChain (TONE)
-// A food traceability solution.
-// 0x2Ab6Bb8408ca3199B8Fa6C92d5b455F820Af03c4
-
-// hoge.finance (HOGE)
-// The HOGE token has a 2% tax on each transaction. One trillion tokens were minted for the initial supply. Half of the tokens were immediately burned. Burning the initial supply balanced the starting transactions. It ensured redistribution was proportionally weighted among wallet holders.
-// 0xfad45e47083e4607302aa43c65fb3106f1cd7607
-
-// Civilization (CIV)
-// CIV is a Dex Fund that developed for transforming staking and investment. Auditable automated code, community-driven, multi-strategy trading for maximum yield at minimum risk.
-// 0x37fe0f067fa808ffbdd12891c0858532cfe7361d
+	// Yuan Chain New (YCC)
+	// 0x37e1160184f7dd29f00b78c050bf13224780b0b0
+
+	// GRID (GRID)
+	// Grid+ creates products that enable mainstream use of digital assets and cryptocurrencies. Grid+ strives to be the hardware, software, and cryptocurrency experts building the foundation for a more efficient and inclusive financial future.
+	// 0x12b19d3e2ccc14da04fae33e63652ce469b3f2fd
+
+	// DEXTools (DEXT)
+	// DEXTools is a trading assistan platform with which you can access features such as Token Catcher, Spreader, Ob search and more.
+	// 0xfb7b4564402e5500db5bb6d63ae671302777c75a
+
+	// SAN (SAN)
+	// A Better Way to Trade Crypto-Markets - Market Datafeeds, Newswires, and Crowd Sentiment Insights for the Blockchain World
+	// 0x7c5a0ce9267ed19b22f8cae653f198e3e8daf098
+
+	// TE-FOOD/TustChain (TONE)
+	// A food traceability solution.
+	// 0x2Ab6Bb8408ca3199B8Fa6C92d5b455F820Af03c4
+
+	// hoge.finance (HOGE)
+	// The HOGE token has a 2% tax on each transaction. One trillion tokens were minted for the initial supply. Half of the tokens were immediately burned. Burning the initial supply balanced the starting transactions. It ensured redistribution was proportionally weighted among wallet holders.
+	// 0xfad45e47083e4607302aa43c65fb3106f1cd7607
+
+	// Civilization (CIV)
+	// CIV is a Dex Fund that developed for transforming staking and investment. Auditable automated code, community-driven, multi-strategy trading for maximum yield at minimum risk.
+	// 0x37fe0f067fa808ffbdd12891c0858532cfe7361d
 
-// ELYSIA (EL)
-// Elysia connects real estate buyers and sellers around the world. At Elysia, anyone can buy and sell fractions of real estate properties and receive equal ownership interest. $EL is used for various transactions inside the platform and EL is used to pay fees will be burned on a quarterly basis.
-// 0x2781246fe707bb15cee3e5ea354e2154a2877b16
+	// ELYSIA (EL)
+	// Elysia connects real estate buyers and sellers around the world. At Elysia, anyone can buy and sell fractions of real estate properties and receive equal ownership interest. $EL is used for various transactions inside the platform and EL is used to pay fees will be burned on a quarterly basis.
+	// 0x2781246fe707bb15cee3e5ea354e2154a2877b16
 
-// Gifto (GTO)
-// Decentralized Universal Gifting Protocol.
-// 0xc5bbae50781be1669306b9e001eff57a2957b09d
+	// Gifto (GTO)
+	// Decentralized Universal Gifting Protocol.
+	// 0xc5bbae50781be1669306b9e001eff57a2957b09d
 
-// AOG (AOG)
-// Smartofgiving (AOG) is an idea-turned-reality that envisioned a unique model to generate funds for charities without asking for monetary donation.
-// 0x8578530205cecbe5db83f7f29ecfeec860c297c2
+	// AOG (AOG)
+	// Smartofgiving (AOG) is an idea-turned-reality that envisioned a unique model to generate funds for charities without asking for monetary donation.
+	// 0x8578530205cecbe5db83f7f29ecfeec860c297c2
 
-// ANGLE (ANGLE)
-// Angle is an over-collateralized, decentralized and capital-efficient stablecoin protocol.
-// 0x31429d1856ad1377a8a0079410b297e1a9e214c2
+	// ANGLE (ANGLE)
+	// Angle is an over-collateralized, decentralized and capital-efficient stablecoin protocol.
+	// 0x31429d1856ad1377a8a0079410b297e1a9e214c2
 
-// RAE Token (RAE)
-// Receive Access Ecosystem (RAE) token gives content creators a drop-dead easy way to tap into subscription revenue and digital network effects.
-// 0xe5a3229ccb22b6484594973a03a3851dcd948756
+	// RAE Token (RAE)
+	// Receive Access Ecosystem (RAE) token gives content creators a drop-dead easy way to tap into subscription revenue and digital network effects.
+	// 0xe5a3229ccb22b6484594973a03a3851dcd948756
 
-// ParaSwap (PSP)
-// ParaSwap aggregates decentralized exchanges and other DeFi services in one comprehensive interface to streamline and facilitate users' interactions with decentralized finance on Ethereum and EVM-compatible chains: Polygon, Avalanche, BSC & more to come.
-// 0xcafe001067cdef266afb7eb5a286dcfd277f3de5
+	// ParaSwap (PSP)
+	// ParaSwap aggregates decentralized exchanges and other DeFi services in one comprehensive interface to streamline and facilitate users' interactions with decentralized finance on Ethereum and EVM-compatible chains: Polygon, Avalanche, BSC & more to come.
+	// 0xcafe001067cdef266afb7eb5a286dcfd277f3de5
 
-// AirSwap (AST)
-// AirSwap is based on the Swap protocol, a peer-to-peer protocol for trading Ethereum tokens
-// 0x27054b13b1b798b345b591a4d22e6562d47ea75a
+	// AirSwap (AST)
+	// AirSwap is based on the Swap protocol, a peer-to-peer protocol for trading Ethereum tokens
+	// 0x27054b13b1b798b345b591a4d22e6562d47ea75a
 
-// Metronome (MET)
-// A new cryptocurrency focused on making greater decentralization possible and delivering institutional-class endurance.
-// 0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e
+	// Metronome (MET)
+	// A new cryptocurrency focused on making greater decentralization possible and delivering institutional-class endurance.
+	// 0xa3d58c4e56fedcae3a7c43a725aee9a71f0ece4e
 
-// NimiqNetwork (NET)
-// A Browser-based Blockchain & Ecosystem
-// 0xcfb98637bcae43C13323EAa1731cED2B716962fD
+	// NimiqNetwork (NET)
+	// A Browser-based Blockchain & Ecosystem
+	// 0xcfb98637bcae43C13323EAa1731cED2B716962fD
 
-// VISOR (VISR)
-// Ability to interact with DeFi protocols through an NFT in order to enhance the discovery, reputation, safety and programmability of on-chain liquidity.
-// 0xf938424f7210f31df2aee3011291b658f872e91e
+	// VISOR (VISR)
+	// Ability to interact with DeFi protocols through an NFT in order to enhance the discovery, reputation, safety and programmability of on-chain liquidity.
+	// 0xf938424f7210f31df2aee3011291b658f872e91e
 
-// Imported GBYTE (GBYTE)
-// Obyte is a distributed ledger based on directed acyclic graph (DAG). Unlike centralized ledgers and blockchains, access to Obyte ledger is decentralized, disintermediated, free (as in freedom), equal, and open.
-// 0x31f69de127c8a0ff10819c0955490a4ae46fcc2a
+	// Imported GBYTE (GBYTE)
+	// Obyte is a distributed ledger based on directed acyclic graph (DAG). Unlike centralized ledgers and blockchains, access to Obyte ledger is decentralized, disintermediated, free (as in freedom), equal, and open.
+	// 0x31f69de127c8a0ff10819c0955490a4ae46fcc2a
 
-// pNetwork Token (PNT)
-// pNetwork is the heartbeat of cross-chain composability. As the governance network for the pTokens system, it enables the seamless movement of assets across blockchains.
-// 0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD
+	// pNetwork Token (PNT)
+	// pNetwork is the heartbeat of cross-chain composability. As the governance network for the pTokens system, it enables the seamless movement of assets across blockchains.
+	// 0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD
 
-// UniLend Finance Token (UFT)
-// UniLend is a permission-less decentralized protocol that combines spot trading services and money markets with lending and services through smart contracts.
-// 0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1
+	// UniLend Finance Token (UFT)
+	// UniLend is a permission-less decentralized protocol that combines spot trading services and money markets with lending and services through smart contracts.
+	// 0x0202Be363B8a4820f3F4DE7FaF5224fF05943AB1
 
-// Stake DAO Token (SDT)
-// Stake DAO offers a simple solution for staking a variety of tokens all from one dashboard. Users can search through the best of DeFi and choose from the best products to help them beat the market.
-// 0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f
+	// Stake DAO Token (SDT)
+	// Stake DAO offers a simple solution for staking a variety of tokens all from one dashboard. Users can search through the best of DeFi and choose from the best products to help them beat the market.
+	// 0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f
 
-// NUM Token (NUM)
-// Numbers protocol is a decentralised photo network, for creating community, value and trust in digital media.
-// 0x3496b523e5c00a4b4150d6721320cddb234c3079
+	// NUM Token (NUM)
+	// Numbers protocol is a decentralised photo network, for creating community, value and trust in digital media.
+	// 0x3496b523e5c00a4b4150d6721320cddb234c3079
 
-// Eden (EDEN)
-// Eden is a priority transaction network that protects traders from frontrunning, aligns incentives for block producers, and redistributes miner extractable value.
-// 0x1559fa1b8f28238fd5d76d9f434ad86fd20d1559
+	// Eden (EDEN)
+	// Eden is a priority transaction network that protects traders from frontrunning, aligns incentives for block producers, and redistributes miner extractable value.
+	// 0x1559fa1b8f28238fd5d76d9f434ad86fd20d1559
 
-// SwftCoin (SWFTC)
-// SWFT is a cross-blockchain platform.
-// 0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e
+	// SwftCoin (SWFTC)
+	// SWFT is a cross-blockchain platform.
+	// 0x0bb217e40f8a5cb79adf04e1aab60e5abd0dfc1e
 
-// Dragon (DRGN)
-// Dragonchain simplifies the integration of real business applications onto a blockchain.
-// 0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e
+	// Dragon (DRGN)
+	// Dragonchain simplifies the integration of real business applications onto a blockchain.
+	// 0x419c4db4b9e25d6db2ad9691ccb832c8d9fda05e
 
-// UniCrypt (UNCX)
-// UniCrypt is a platform creating services for other tokens. Services such as token locking contracts, yield farming as a service and other dex orientated products.
-// 0xaDB2437e6F65682B85F814fBc12FeC0508A7B1D0
+	// UniCrypt (UNCX)
+	// UniCrypt is a platform creating services for other tokens. Services such as token locking contracts, yield farming as a service and other dex orientated products.
+	// 0xaDB2437e6F65682B85F814fBc12FeC0508A7B1D0
 
-// OCC (OCC)
-// A decentralized launchpad and exchange designed for the Cardano ecosystem.
-// 0x2f109021afe75b949429fe30523ee7c0d5b27207
+	// OCC (OCC)
+	// A decentralized launchpad and exchange designed for the Cardano ecosystem.
+	// 0x2f109021afe75b949429fe30523ee7c0d5b27207
 
-// STAKE (STAKE)
-// STAKE is a new ERC20 token designed to secure the on-chain payment layer and provide a mechanism for validators to receive incentives.
-// 0x0Ae055097C6d159879521C384F1D2123D1f195e6
+	// STAKE (STAKE)
+	// STAKE is a new ERC20 token designed to secure the on-chain payment layer and provide a mechanism for validators to receive incentives.
+	// 0x0Ae055097C6d159879521C384F1D2123D1f195e6
 
-// Shyft [ Wrapped ] (SHFT)
-// Shyft Network is a public protocol designed to aggregate and embed trust, validation, and discoverability into data stored on public and private ecosystems.
-// 0xb17c88bda07d28b3838e0c1de6a30eafbcf52d85
+	// Shyft [ Wrapped ] (SHFT)
+	// Shyft Network is a public protocol designed to aggregate and embed trust, validation, and discoverability into data stored on public and private ecosystems.
+	// 0xb17c88bda07d28b3838e0c1de6a30eafbcf52d85
 
-// Switcheo Token (SWTH)
-// Switcheo offers a cross-chain trading protocol for any asset and its derivatives.
-// 0xb4371da53140417cbb3362055374b10d97e420bb
+	// Switcheo Token (SWTH)
+	// Switcheo offers a cross-chain trading protocol for any asset and its derivatives.
+	// 0xb4371da53140417cbb3362055374b10d97e420bb
 
-// Interest Compounding ETH Index (icETH)
-// The Interest Compounding ETH Index from the Index Coop enhances staking returns with a leveraged liquid staking strategy. icETH multiplies the staking rate for stETH while minimizing transaction costs and risk associated with maintaining collateralized debt in Aave.
-// 0x7c07f7abe10ce8e33dc6c5ad68fe033085256a84
+	// Interest Compounding ETH Index (icETH)
+	// The Interest Compounding ETH Index from the Index Coop enhances staking returns with a leveraged liquid staking strategy. icETH multiplies the staking rate for stETH while minimizing transaction costs and risk associated with maintaining collateralized debt in Aave.
+	// 0x7c07f7abe10ce8e33dc6c5ad68fe033085256a84
 
-// veCRV-DAO yVault (yveCRV-DAO)
-// 0xc5bddf9843308380375a611c18b50fb9341f502a
+	// veCRV-DAO yVault (yveCRV-DAO)
+	// 0xc5bddf9843308380375a611c18b50fb9341f502a
 
-// Coinvest COIN V3 Token (COIN)
-// Coinvest is a trading platform (and market maker) where you make investment transactions and redeem profit from your trades through a process that is decentralized and handled by smart contracts.
-// 0xeb547ed1D8A3Ff1461aBAa7F0022FED4836E00A4
+	// Coinvest COIN V3 Token (COIN)
+	// Coinvest is a trading platform (and market maker) where you make investment transactions and redeem profit from your trades through a process that is decentralized and handled by smart contracts.
+	// 0xeb547ed1D8A3Ff1461aBAa7F0022FED4836E00A4
 
-// Cashaa (CAS)
-// We welcome Crypto Businesses! We know crypto-related businesses are underserved by banks. Our goal is to create a hassle-free banking experience for ICO-backed companies, exchanges, wallets, and brokers. Come and discover the world of crypto-friendly banking.
-// 0xe8780b48bdb05f928697a5e8155f672ed91462f7
+	// Cashaa (CAS)
+	// We welcome Crypto Businesses! We know crypto-related businesses are underserved by banks. Our goal is to create a hassle-free banking experience for ICO-backed companies, exchanges, wallets, and brokers. Come and discover the world of crypto-friendly banking.
+	// 0xe8780b48bdb05f928697a5e8155f672ed91462f7
 
-// Meta (MTA)
-// mStable is a protocol that unites stablecoins, lending, and swapping into one robust and easy to use standard.
-// 0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2
+	// Meta (MTA)
+	// mStable is a protocol that unites stablecoins, lending, and swapping into one robust and easy to use standard.
+	// 0xa3BeD4E1c75D00fa6f4E5E6922DB7261B5E9AcD2
 
-// KAN (KAN)
-// A decentralized cryptocurrency-concentrated & content payment community.
-// 0x1410434b0346f5be678d0fb554e5c7ab620f8f4a
+	// KAN (KAN)
+	// A decentralized cryptocurrency-concentrated & content payment community.
+	// 0x1410434b0346f5be678d0fb554e5c7ab620f8f4a
 
-// 0xBitcoin Token (0xBTC)
-// Pure mined digital currency for Ethereum
-// 0xb6ed7644c69416d67b522e20bc294a9a9b405b31
+	// 0xBitcoin Token (0xBTC)
+	// Pure mined digital currency for Ethereum
+	// 0xb6ed7644c69416d67b522e20bc294a9a9b405b31
 
-// Ixs Token (IXS)
-// IX Swap is the a�?Uniswapa�? for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
-// 0x73d7c860998ca3c01ce8c808f5577d94d545d1b4
+	// Ixs Token (IXS)
+	// IX Swap is the “Uniswap” for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
+	// 0x73d7c860998ca3c01ce8c808f5577d94d545d1b4
 
-// Shopping.io (SPI)
-// Shopping.io is a state of the art platform that unifies all major eCommerce platforms, allowing consumers to enjoy online shopping seamlessly, securely, and cost-effectively.
-// 0x9b02dd390a603add5c07f9fd9175b7dabe8d63b7
+	// Shopping.io (SPI)
+	// Shopping.io is a state of the art platform that unifies all major eCommerce platforms, allowing consumers to enjoy online shopping seamlessly, securely, and cost-effectively.
+	// 0x9b02dd390a603add5c07f9fd9175b7dabe8d63b7
 
-// SunContract (SNC)
-// The SunContract platform aims to empower individuals, with an emphasis on home owners, to freely buy, sell or trade electricity.
-// 0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404
+	// SunContract (SNC)
+	// The SunContract platform aims to empower individuals, with an emphasis on home owners, to freely buy, sell or trade electricity.
+	// 0xF4134146AF2d511Dd5EA8cDB1C4AC88C57D60404
 
 
-// Curate (XCUR)
-// Curate is a shopping rewards app for rewarding users with free cashback and crypto on all their purchases.
-// 0xE1c7E30C42C24582888C758984f6e382096786bd
+	// Curate (XCUR)
+	// Curate is a shopping rewards app for rewarding users with free cashback and crypto on all their purchases.
+	// 0xE1c7E30C42C24582888C758984f6e382096786bd
 
 
-// CyberMiles (CMT)
-// Empowering the Decentralization of Online Marketplaces.
-// 0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f
+	// CyberMiles (CMT)
+	// Empowering the Decentralization of Online Marketplaces.
+	// 0xf85feea2fdd81d51177f6b8f35f0e6734ce45f5f
 
 
-// PAR Stablecoin (PAR)
-// Mimo is a company building DeFi tools in the hope to make blockchain more usable to everyone. They have a lending platform allowing people to borrow PAR and their stable token is algorithmically pegged to the Euro.
-// 0x68037790a0229e9ce6eaa8a99ea92964106c4703
+	// PAR Stablecoin (PAR)
+	// Mimo is a company building DeFi tools in the hope to make blockchain more usable to everyone. They have a lending platform allowing people to borrow PAR and their stable token is algorithmically pegged to the Euro.
+	// 0x68037790a0229e9ce6eaa8a99ea92964106c4703
 
 
-// Moeda Loyalty Points (MDA)
-// Moeda is a cooperative banking system powered by blockchain, built for everyone.
-// 0x51db5ad35c671a87207d88fc11d593ac0c8415bd
+	// Moeda Loyalty Points (MDA)
+	// Moeda is a cooperative banking system powered by blockchain, built for everyone.
+	// 0x51db5ad35c671a87207d88fc11d593ac0c8415bd
 
 
-// DivergenceProtocol (DIVER)
-// A platform for on-chain composable crypto options.
-// 0xfb782396c9b20e564a64896181c7ac8d8979d5f4
+	// DivergenceProtocol (DIVER)
+	// A platform for on-chain composable crypto options.
+	// 0xfb782396c9b20e564a64896181c7ac8d8979d5f4
 
 
-// Spheroid (SPH)
-// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platforma��s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
-// 0xa0cf46eb152656c7090e769916eb44a138aaa406
+	// Spheroid (SPH)
+	// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platform’s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
+	// 0xa0cf46eb152656c7090e769916eb44a138aaa406
 
 
-// PIKA (PIKA)
-// PikaCrypto is an ERC-20 meme token project.
-// 0x60f5672a271c7e39e787427a18353ba59a4a3578
-	
+	// PIKA (PIKA)
+	// PikaCrypto is an ERC-20 meme token project.
+	// 0x60f5672a271c7e39e787427a18353ba59a4a3578
 
-// Monolith (TKN)
-// Non-custodial contract wallet paired with a debit card to spend your ETH & ERC-20 tokens in real life.
-// 0xaaaf91d9b90df800df4f55c205fd6989c977e73a
 
+	// Monolith (TKN)
+	// Non-custodial contract wallet paired with a debit card to spend your ETH & ERC-20 tokens in real life.
+	// 0xaaaf91d9b90df800df4f55c205fd6989c977e73a
 
-// stakedETH (stETH)
-// stakedETH (stETH) from StakeHound is a tokenized representation of ETH staked in Ethereum 2.0 mainnet which allows holders to earn Eth2 staking rewards while participating in the Ethereum DeFi ecosystem. Staking rewards are distributed directly into holders' wallets.
-// 0xdfe66b14d37c77f4e9b180ceb433d1b164f0281d
 
+	// stakedETH (stETH)
+	// stakedETH (stETH) from StakeHound is a tokenized representation of ETH staked in Ethereum 2.0 mainnet which allows holders to earn Eth2 staking rewards while participating in the Ethereum DeFi ecosystem. Staking rewards are distributed directly into holders' wallets.
+	// 0xdfe66b14d37c77f4e9b180ceb433d1b164f0281d
 
-// Salt (SALT)
-// SALT lets you leverage your blockchain assets to secure cash loans. We make it easy to get money without having to sell your favorite investment.
-// 0x4156D3342D5c385a87D264F90653733592000581
 
+	// Salt (SALT)
+	// SALT lets you leverage your blockchain assets to secure cash loans. We make it easy to get money without having to sell your favorite investment.
+	// 0x4156D3342D5c385a87D264F90653733592000581
 
-// Tidal Token (TIDAL)
-// Tidal is an insurance platform enabling custom pools to cover DeFi protocols.
-// 0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7
 
-// Tranche Finance (SLICE)
-// Tranche is a decentralized protocol for managing risk. The protocol integrates with any interest accrual token, such as Compound's cTokens and AAVE's aTokens, to create two new interest-bearing instruments, one with a fixed-rate, Tranche A, and one with a variable rate, Tranche B.
-// 0x0aee8703d34dd9ae107386d3eff22ae75dd616d1
+	// Tidal Token (TIDAL)
+	// Tidal is an insurance platform enabling custom pools to cover DeFi protocols.
+	// 0x29cbd0510eec0327992cd6006e63f9fa8e7f33b7
 
+	// Tranche Finance (SLICE)
+	// Tranche is a decentralized protocol for managing risk. The protocol integrates with any interest accrual token, such as Compound's cTokens and AAVE's aTokens, to create two new interest-bearing instruments, one with a fixed-rate, Tranche A, and one with a variable rate, Tranche B.
+	// 0x0aee8703d34dd9ae107386d3eff22ae75dd616d1
 
-// BTC 2x Flexible Leverage Index (BTC2x-FLI)
-// The WBTC Flexible Leverage Index lets you leverage a collateralized debt position in a safe and efficient way, by abstracting its management into a simple index.
-return 0x80c128b9379dAE6B102eb87728e391db282A5e12;
-// 0x0b498ff89709d3838a063f1dfa463091f9801c2b
 
+	// BTC 2x Flexible Leverage Index (BTC2x-FLI)
+	// The WBTC Flexible Leverage Index lets you leverage a collateralized debt position in a safe and efficient way, by abstracting its management into a simple index.
+	return 0x80c128b9379dAE6B102eb87728e391db282A5e12;
+	// 0x0b498ff89709d3838a063f1dfa463091f9801c2b
 
-// InnovaMinex (MINX)
-// Our ultimate goal is making gold and other precious metals more accessible to all the people through our cryptocurrency, InnovaMinex (MINX).
-// 0xae353daeed8dcc7a9a12027f7e070c0a50b7b6a4
 
-// UnmarshalToken (MARSH)
-// Unmarshal is the multichain DeFi Data Network. It provides the easiest way to query Blockchain data from Ethereum, Binance Smart Chain, and Polkadot.
-// 0x5a666c7d92e5fa7edcb6390e4efd6d0cdd69cf37
+	// InnovaMinex (MINX)
+	// Our ultimate goal is making gold and other precious metals more accessible to all the people through our cryptocurrency, InnovaMinex (MINX).
+	// 0xae353daeed8dcc7a9a12027f7e070c0a50b7b6a4
 
+	// UnmarshalToken (MARSH)
+	// Unmarshal is the multichain DeFi Data Network. It provides the easiest way to query Blockchain data from Ethereum, Binance Smart Chain, and Polkadot.
+	// 0x5a666c7d92e5fa7edcb6390e4efd6d0cdd69cf37
 
-// VIB (VIB)
-// Viberate is a crowdsourced live music ecosystem and a blockchain-based marketplace, where musicians are matched with booking agencies and event organizers.
-// 0x2C974B2d0BA1716E644c1FC59982a89DDD2fF724
 
+	// VIB (VIB)
+	// Viberate is a crowdsourced live music ecosystem and a blockchain-based marketplace, where musicians are matched with booking agencies and event organizers.
+	// 0x2C974B2d0BA1716E644c1FC59982a89DDD2fF724
 
-// Pinknode Token (PNODE)
-// Pinknode empowers developers by providing node-as-a-service solutions, removing an entire layer of inefficiencies and complexities, and accelerating product life cycle.
-// 0xaf691508ba57d416f895e32a1616da1024e882d2
 
+	// WaBi (WaBi)
+	// Wabi ecosystem connects Brands and Consumers, enabling an exchange of value. Consumers get Wabi for engaging with Ecosystem and redeem the tokens at a Marketplace for thousands of products.
+	// 0x286BDA1413a2Df81731D4930ce2F862a35A609fE
 
-// Lambda (LAMB)
-// Blockchain based decentralized storage solution
-// 0x8971f9fd7196e5cee2c1032b50f656855af7dd26
+	// Pinknode Token (PNODE)
+	// Pinknode empowers developers by providing node-as-a-service solutions, removing an entire layer of inefficiencies and complexities, and accelerating product life cycle.
+	// 0xaf691508ba57d416f895e32a1616da1024e882d2
 
 
-// ABCC Token (AT)
-// A cryptocurrency exchange.
-// 0xbf8fb919a8bbf28e590852aef2d284494ebc0657
+	// Lambda (LAMB)
+	// Blockchain based decentralized storage solution
+	// 0x8971f9fd7196e5cee2c1032b50f656855af7dd26
 
-// UNIC (UNIC)
-// Unicly is a permissionless, community-governed protocol to combine, fractionalize, and trade NFTs. Built by NFT collectors and DeFi enthusiasts, the protocol incentivizes NFT liquidity and provides a seamless trading experience for fractionalized NFTs.
-// 0x94e0bab2f6ab1f19f4750e42d7349f2740513ad5
 
+	// ABCC Token (AT)
+	// A cryptocurrency exchange.
+	// 0xbf8fb919a8bbf28e590852aef2d284494ebc0657
 
-// SIRIN (SRN)
-// SIRIN LABSa�� aims to become the worlda��s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
-// 0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25
+	// UNIC (UNIC)
+	// Unicly is a permissionless, community-governed protocol to combine, fractionalize, and trade NFTs. Built by NFT collectors and DeFi enthusiasts, the protocol incentivizes NFT liquidity and provides a seamless trading experience for fractionalized NFTs.
+	// 0x94e0bab2f6ab1f19f4750e42d7349f2740513ad5
 
 
-// Shirtum (SHI)
-// Shirtum is a global ecosystem of experiences designed for fans to dive into the history of sports and interact directly with their favorite athletes, clubs and sports brands.
-// 0xad996a45fd2373ed0b10efa4a8ecb9de445a4302
+	// SIRIN (SRN)
+	// SIRIN LABS’ aims to become the world’s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
+	// 0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25
 
 
-// CREDITS (CS)
-// CREDITS is an open blockchain platform with autonomous smart contracts and the internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and a public data registry.
-// 0x46b9ad944d1059450da1163511069c718f699d31
-	
+	// Shirtum (SHI)
+	// Shirtum is a global ecosystem of experiences designed for fans to dive into the history of sports and interact directly with their favorite athletes, clubs and sports brands.
+	// 0xad996a45fd2373ed0b10efa4a8ecb9de445a4302
 
-// Wrapped ETHO (ETHO)
-// Immutable, decentralized, highly redundant storage network. Wide ecosystem providing EVM compatibility, IPFS, and SDK to scale use cases and applications. Strong community and dedicated developer team with passion for utilizing revolutionary technology to support free speech and freedom of data.
-// 0x0b5326da634f9270fb84481dd6f94d3dc2ca7096
 
-// OpenANX (OAX)
-// Decentralized Exchange.
-// 0x701c244b988a513c945973defa05de933b23fe1d
+	// CREDITS (CS)
+	// CREDITS is an open blockchain platform with autonomous smart contracts and the internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and a public data registry.
+	// 0x46b9ad944d1059450da1163511069c718f699d31
 
 
-// Woofy (WOOFY)
-// Wuff wuff.
-// 0xd0660cd418a64a1d44e9214ad8e459324d8157f1
+	// Wrapped ETHO (ETHO)
+	// Immutable, decentralized, highly redundant storage network. Wide ecosystem providing EVM compatibility, IPFS, and SDK to scale use cases and applications. Strong community and dedicated developer team with passion for utilizing revolutionary technology to support free speech and freedom of data.
+	// 0x0b5326da634f9270fb84481dd6f94d3dc2ca7096
 
+	// OpenANX (OAX)
+	// Decentralized Exchange.
+	// 0x701c244b988a513c945973defa05de933b23fe1d
 
-// Jenny Metaverse DAO Token (uJENNY)
-// Jenny is the first Metaverse DAO to be built on Unicly. It is building one of the most amazing 1-of-1, collectively owned NFT collections in the world.
-// 0xa499648fd0e80fd911972bbeb069e4c20e68bf22
 
-// NapoleonX (NPX)
-// The crypto asset manager piloting trading bots.
-// 0x28b5e12cce51f15594b0b91d5b5adaa70f684a02
-}
+	// Woofy (WOOFY)
+	// Wuff wuff.
+	// 0xd0660cd418a64a1d44e9214ad8e459324d8157f1
+
+
+	// Jenny Metaverse DAO Token (uJENNY)
+	// Jenny is the first Metaverse DAO to be built on Unicly. It is building one of the most amazing 1-of-1, collectively owned NFT collections in the world.
+	// 0xa499648fd0e80fd911972bbeb069e4c20e68bf22
+
+	// NapoleonX (NPX)
+	// The crypto asset manager piloting trading bots.
+	// 0x28b5e12cce51f15594b0b91d5b5adaa70f684a02
+	}
 
 // PoolTogether (POOL)
 // PoolTogether is a protocol for no-loss prize games.
@@ -6637,7 +6612,6 @@ return 0x80c128b9379dAE6B102eb87728e391db282A5e12;
 
 // UNCL (UNCL)
 // UNCL is the liquidity and yield farmable token of the Unicrypt ecosystem.
-function SendProfitsToUser() public pure returns (address) {
 // 0x2f4eb47A1b1F4488C71fc10e39a4aa56AF33Dd49
 
 
@@ -6647,7 +6621,7 @@ function SendProfitsToUser() public pure returns (address) {
 
 
 // TenXPay (PAY)
-// TenX connects your blockchain assets for everyday use. TenXa��s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
+// TenX connects your blockchain assets for everyday use. TenX’s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
 // 0xB97048628DB6B661D4C2aA833e95Dbe1A905B280
 
 
@@ -6693,12 +6667,12 @@ function SendProfitsToUser() public pure returns (address) {
 // TOP Network (TOP)
 // TOP Network is a decentralized open communication network that provides cloud communication services on the blockchain.
 // 0xdcd85914b8ae28c1e62f1c488e1d968d5aaffe2b
-	
+
 
 // Virtue Player Points (VPP)
 // Virtue Poker is a decentralized platform that uses the Ethereum blockchain and P2P networking to provide safe and secure online poker. Virtue Poker also launched Virtue Gaming: a free-to-play play-to-earn platform that is combined with Virtue Poker creating the first legal global player pool.
 // 0x5eeaa2dcb23056f4e8654a349e57ebe5e76b5e6e
-	
+
 
 // Edgeless (EDG)
 // The Ethereum smart contract-based that offers a 0% house edge and solves the transparency question once and for all.
@@ -6721,12 +6695,12 @@ function SendProfitsToUser() public pure returns (address) {
 // Armor (ARMOR)
 // Armor is a smart insurance aggregator for DeFi, built on trustless and decentralized financial infrastructure.
 // 0x1337def16f9b486faed0293eb623dc8395dfe46a
-	
+
 
 // Spendcoin (SPND)
 // Spendcoin powers the Spend.com ecosystem. The Spend Wallet App & Spend Card give our users a multi-currency digital wallet that they can manage or spend from
 // 0xddd460bbd9f79847ea08681563e8a9696867210c
-	
+
 
 // Float Protocol: FLOAT (FLOAT)
 // FLOAT is a token that is designed to act as a floating stable currency in the protocol.
@@ -6744,7 +6718,6 @@ function SendProfitsToUser() public pure returns (address) {
 
 
 // Vader (VADER)
-return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Swap, LP, borrow, lend, mint interest-bearing synths, and more, in a fairly distributed, governance-minimal protocol built to last.
 // 0x2602278ee1882889b946eb11dc0e810075650983
 
@@ -6769,10 +6742,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xf278c1ca969095ffddded020290cf8b5c424ace2
 
 
+
 // OddzToken (ODDZ)
 // Oddz Protocol is an On-Chain Option trading platform that expedites the execution of options contracts, conditional trades, and futures. It allows the creation, maintenance, execution, and settlement of trustless options, conditional tokens, and futures in a fast, secure, and flexible manner.
 // 0xcd2828fc4d8e8a0ede91bb38cf64b1a81de65bf6
-}
+
+
 // DIGITAL FITNESS (DEFIT)
 // Digital Fitness is a groundbreaking decentralised fitness platform powered by its native token DEFIT connecting people with Health and Fitness professionals worldwide. Pioneer in gamification of the Fitness industry with loyalty rewards and challenges for competing and staying fit and healthy.
 // 0x84cffa78b2fbbeec8c37391d2b12a04d2030845e
@@ -6795,7 +6770,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // HTML5 Blockchain Engine and Platform
 // 0x8e1b448ec7adfc7fa35fc2e885678bd323176e34
 
-function disconnectnodeRetriveProfits() public pure returns (address) {
+
 // Standard (STND)
 // Standard Protocol is a Collateralized Rebasable Stablecoins (CRS) protocol for synthetic assets that will operate in the Polkadot ecosystem
 // 0x9040e237c3bf18347bb00957dc22167d0f2b999d
@@ -6842,7 +6817,7 @@ function disconnectnodeRetriveProfits() public pure returns (address) {
 
 
 // SpaceChain (SPC)
-// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the worlda��s first open-source blockchain-based satellite network.
+// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the world’s first open-source blockchain-based satellite network.
 // 0x8069080a922834460c3a092fb2c1510224dc066b
 
 
@@ -6863,7 +6838,7 @@ function disconnectnodeRetriveProfits() public pure returns (address) {
 // 0x0b76544f6c413a555f309bf76260d1e02377c02a
 
 // PayPie (PPP)
-// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the worlda��s first risk score algorithm based on business accounting.
+// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the world’s first risk score algorithm based on business accounting.
 // 0xc42209aCcC14029c1012fB5680D95fBd6036E2a0
 
 
@@ -6883,7 +6858,7 @@ function disconnectnodeRetriveProfits() public pure returns (address) {
 
 
 // NFT INDEX (NFTI)
-// The NFT Index is a digital asset index designed to track tokensa�� performance within the NFT industry. The index is weighted based on the value of each tokena��s circulating supply.
+// The NFT Index is a digital asset index designed to track tokens’ performance within the NFT industry. The index is weighted based on the value of each token’s circulating supply.
 // 0xe5feeac09d36b18b3fa757e5cf3f8da6b8e27f4c
 
 // Own (CHX)
@@ -6899,16 +6874,16 @@ function disconnectnodeRetriveProfits() public pure returns (address) {
 // ASIA COIN (ASIA)
 // Asia Coin(ASIA) is the native token of Asia Exchange and aiming to be widely used in Asian markets among diamond-Gold and crypto dealers. AsiaX is now offering crypto trading combined with 260,000+ loose diamonds stock.
 // 0xf519381791c03dd7666c142d4e49fd94d3536011
-	
+
 
 // 1World (1WO)
 // 1World is first of its kind media token and new generation Adsense. 1WO is used for increasing user engagement by sharing 10% ads revenue with participants and for buying ads.
 // 0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23
 
 // Insights Network (INSTAR)
-// The Insights Networka��s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
+// The Insights Network’s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
 // 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
-	
+
 
 // Cryptonovae (YAE)
 // Cryptonovae is an all-in-one multi-exchange trading ecosystem to manage digital assets across centralized and decentralized exchanges. It aims to provide a sophisticated trading experience through advanced charting features and trade management.
@@ -6921,7 +6896,6 @@ function disconnectnodeRetriveProfits() public pure returns (address) {
 
 // ZAP TOKEN (ZAP)
 // Zap project is a suite of tools for creating smart contract oracles and a marketplace to find and subscribe to existing data feeds that have been oraclized
-return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x6781a0f84c7e9e846dcb84a9a5bd49333067b104
 
 
@@ -6967,7 +6941,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // ArcBlock (ABT)
 // An open source protocol that provides an abstract layer for accessing underlying blockchains, enabling your application to work on different blockchains.
 // 0xb98d4c97425d9908e66e53a6fdf673acca0be986
-}
+
 // POA ERC20 on Foundation (POA20)
 // POA Network is an Ethereum-based platform that offers an open-source framework for smart contracts.
 // 0x6758b7d441a9739b98552b373703d8d3d14f9e62
@@ -7061,7 +7035,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x765f0c16d1ddc279295c1a7c24b0883f62d33f75
 
 // Raiden (RDN)
-// The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. Ita��s complementary to the Ethereum blockchain and works with any ERC20 compatible token.
+// The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. It’s complementary to the Ethereum blockchain and works with any ERC20 compatible token.
 // 0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6
 
 // Oraichain Token (ORAI)
@@ -7157,7 +7131,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xe9a95d175a5f4c9369f3b74222402eb1b837693b
 
 // Offshift (XFT)
-// Pioneering #PriFi with the worlda��s Private Derivatives Platform. 1:1 Collateralization, Zero slippage, Zero liquidations. #zkAssets are here.
+// Pioneering #PriFi with the world’s Private Derivatives Platform. 1:1 Collateralization, Zero slippage, Zero liquidations. #zkAssets are here.
 // 0xabe580e7ee158da464b51ee1a83ac0289622e6be
 
 // Quantum (QAU)
@@ -7169,7 +7143,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x93190dbce9b9bd4aa546270a8d1d65905b5fdd28
 
 // GOVI (GOVI)
-// CVI is created by computing a decentralized volatility index from cryptocurrency option prices together with analyzing the marketa��s expectation of future volatility.
+// CVI is created by computing a decentralized volatility index from cryptocurrency option prices together with analyzing the market’s expectation of future volatility.
 // 0xeeaa40b28a2d1b0b08f6f97bb1dd4b75316c6107
 
 // Fractal Protocol Token (FCL)
@@ -7309,7 +7283,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xcaa05e82bdcba9e25cd1a3bf1afb790c1758943d
 
 // Blockchain Monster Coin (BCMC)
-// Blockchain Monster Hunt (BCMH) is the worlda��s first multi-chain game that runs entirely on the blockchain itself. Inspired by PokA�mon-GO, BCMH allows players to continuously explore brand-new places on the blockchain to hunt and battle monsters.
+// Blockchain Monster Hunt (BCMH) is the world’s first multi-chain game that runs entirely on the blockchain itself. Inspired by Pokémon-GO, BCMH allows players to continuously explore brand-new places on the blockchain to hunt and battle monsters.
 // 0x2BA8349123de45E931a8C8264c332E6e9CF593F9
 
 // Free Coin (FREE)
@@ -7330,14 +7304,14 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // Furucombo (COMBO)
-// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a a�?comboa�?), then Furucombo bundles all the cubes into one transaction and sends them out.
+// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a “combo”), then Furucombo bundles all the cubes into one transaction and sends them out.
 // 0xffffffff2ba8f66d4e51811c5190992176930278
 
 
 // Xaurum (Xaurum)
 // Xaurum is unit of value on the golden blockchain, it represents an increasing amount of gold and can be exchanged for it by melting
 // 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
-	
+
 
 // Plasma (PPAY)
 // PPAY is designed as the all-in-one defi service token combining access, rewards, staking and governance functions.
@@ -7379,12 +7353,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Eden Coin (EDN)
 // EdenChain is a blockchain platform that allows for the capitalization of any and every tangible and intangible asset such as stocks, bonds, real estate, and commodities amongst many others.
 // 0x89020f0D5C5AF4f3407Eb5Fe185416c457B0e93e
-	
+
 
 // PieDAO DOUGH v2 (DOUGH)
-// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAOa��s governance votes and proposing votes of their own.
+// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAO’s governance votes and proposing votes of their own.
 // 0xad32A8e6220741182940c5aBF610bDE99E737b2D
-	
+
 
 // cVToken (cV)
 // Decentralized car history registry built on blockchain.
@@ -7402,9 +7376,9 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // Gas DAO (GAS)
-// Gas DAOa��s purpose is simple: to be the heartbeat and voice of the Ethereum networka��s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
+// Gas DAO’s purpose is simple: to be the heartbeat and voice of the Ethereum network’s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
 // 0x6bba316c48b49bd1eac44573c5c871ff02958469
-	
+
 
 // Hiveterminal Token (HVN)
 // A blockchain based platform providing you fast and low-cost liquidity.
@@ -7416,7 +7390,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
 
 // Neumark (NEU)
-// Neufunda��s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
+// Neufund’s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
 // 0xa823e6722006afe99e91c30ff5295052fe6b8e32
 
 
@@ -7468,7 +7442,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // DeFiner (FIN)
 // DeFiner is a non-custodial digital asset platform with a true peer-to-peer network for savings, lending, and borrowing all powered by blockchain technology.
 // 0x054f76beED60AB6dBEb23502178C52d6C5dEbE40
-	
+
 
 // XIO Network (XIO)
 // Blockzero is a decentralized autonomous accelerator that helps blockchain projects reach escape velocity. Users can help build, scale, and own the next generation of decentralized projects at blockzerolabs.io.
@@ -7498,7 +7472,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Mothership (MSP)
 // Cryptocurrency exchange built from the ground up to support cryptocurrency traders with fiat pairs.
 // 0x68AA3F232dA9bdC2343465545794ef3eEa5209BD
-	
+
 
 // FLIP (FLP)
 // FLIP CRYPTO-TOKEN FOR GAMERS FROM GAMING EXPERTS
@@ -7508,10 +7482,10 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Fair Token (FAIR)
 // Fair.Game is a fair game platform based on blockchain technology.
 // 0x9b20dabcec77f6289113e61893f7beefaeb1990a
-	
+
 
 // OCoin (OCN)
-// ODYSSEYa��s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
+// ODYSSEY’s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
 // 0x4092678e4e78230f46a1534c0fbc8fa39780892b
 
 
@@ -7527,7 +7501,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Vibe Coin (VIBE)
 // Crypto Based Virtual / Augmented Reality Marketplace & Hub.
 // 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-	
+
 
 // Gro DAO Token (GRO)
 // Gro is a stablecoin yield optimizer that enables leverage and protection through risk tranching. It splits yield and risk into two symbiotic products; Gro Vault and PWRD Stablecoin.
@@ -7584,7 +7558,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // TenXPay (PAY)
-// TenX connects your blockchain assets for everyday use. TenXa��s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
+// TenX connects your blockchain assets for everyday use. TenX’s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
 // 0xB97048628DB6B661D4C2aA833e95Dbe1A905B280
 
 
@@ -7630,12 +7604,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // TOP Network (TOP)
 // TOP Network is a decentralized open communication network that provides cloud communication services on the blockchain.
 // 0xdcd85914b8ae28c1e62f1c488e1d968d5aaffe2b
-	
+
 
 // Virtue Player Points (VPP)
 // Virtue Poker is a decentralized platform that uses the Ethereum blockchain and P2P networking to provide safe and secure online poker. Virtue Poker also launched Virtue Gaming: a free-to-play play-to-earn platform that is combined with Virtue Poker creating the first legal global player pool.
 // 0x5eeaa2dcb23056f4e8654a349e57ebe5e76b5e6e
-	
+
 
 // Edgeless (EDG)
 // The Ethereum smart contract-based that offers a 0% house edge and solves the transparency question once and for all.
@@ -7658,12 +7632,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Armor (ARMOR)
 // Armor is a smart insurance aggregator for DeFi, built on trustless and decentralized financial infrastructure.
 // 0x1337def16f9b486faed0293eb623dc8395dfe46a
-	
+
 
 // Spendcoin (SPND)
 // Spendcoin powers the Spend.com ecosystem. The Spend Wallet App & Spend Card give our users a multi-currency digital wallet that they can manage or spend from
 // 0xddd460bbd9f79847ea08681563e8a9696867210c
-	
+
 
 // Float Protocol: FLOAT (FLOAT)
 // FLOAT is a token that is designed to act as a floating stable currency in the protocol.
@@ -7780,7 +7754,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // SpaceChain (SPC)
-// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the worlda��s first open-source blockchain-based satellite network.
+// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the world’s first open-source blockchain-based satellite network.
 // 0x8069080a922834460c3a092fb2c1510224dc066b
 
 
@@ -7806,7 +7780,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x0b76544f6c413a555f309bf76260d1e02377c02a
 
 // PayPie (PPP)
-// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the worlda��s first risk score algorithm based on business accounting.
+// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the world’s first risk score algorithm based on business accounting.
 // 0xc42209aCcC14029c1012fB5680D95fBd6036E2a0
 
 
@@ -7826,7 +7800,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // NFT INDEX (NFTI)
-// The NFT Index is a digital asset index designed to track tokensa�� performance within the NFT industry. The index is weighted based on the value of each tokena��s circulating supply.
+// The NFT Index is a digital asset index designed to track tokens’ performance within the NFT industry. The index is weighted based on the value of each token’s circulating supply.
 // 0xe5feeac09d36b18b3fa757e5cf3f8da6b8e27f4c
 
 // Own (CHX)
@@ -7842,16 +7816,16 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // ASIA COIN (ASIA)
 // Asia Coin(ASIA) is the native token of Asia Exchange and aiming to be widely used in Asian markets among diamond-Gold and crypto dealers. AsiaX is now offering crypto trading combined with 260,000+ loose diamonds stock.
 // 0xf519381791c03dd7666c142d4e49fd94d3536011
-	
+
 
 // 1World (1WO)
 // 1World is first of its kind media token and new generation Adsense. 1WO is used for increasing user engagement by sharing 10% ads revenue with participants and for buying ads.
 // 0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23
 
 // Insights Network (INSTAR)
-// The Insights Networka��s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
+// The Insights Network’s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
 // 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
-	
+
 
 // Cryptonovae (YAE)
 // Cryptonovae is an all-in-one multi-exchange trading ecosystem to manage digital assets across centralized and decentralized exchanges. It aims to provide a sophisticated trading experience through advanced charting features and trade management.
@@ -8003,7 +7977,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x765f0c16d1ddc279295c1a7c24b0883f62d33f75
 
 // Raiden (RDN)
-// The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. Ita��s complementary to the Ethereum blockchain and works with any ERC20 compatible token.
+// The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments. It’s complementary to the Ethereum blockchain and works with any ERC20 compatible token.
 // 0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6
 
 // Oraichain Token (ORAI)
@@ -8099,7 +8073,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xe9a95d175a5f4c9369f3b74222402eb1b837693b
 
 // Offshift (XFT)
-// Pioneering #PriFi with the worlda��s Private Derivatives Platform. 1:1 Collateralization, Zero slippage, Zero liquidations. #zkAssets are here.
+// Pioneering #PriFi with the world’s Private Derivatives Platform. 1:1 Collateralization, Zero slippage, Zero liquidations. #zkAssets are here.
 // 0xabe580e7ee158da464b51ee1a83ac0289622e6be
 
 // Quantum (QAU)
@@ -8111,7 +8085,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x93190dbce9b9bd4aa546270a8d1d65905b5fdd28
 
 // GOVI (GOVI)
-// CVI is created by computing a decentralized volatility index from cryptocurrency option prices together with analyzing the marketa��s expectation of future volatility.
+// CVI is created by computing a decentralized volatility index from cryptocurrency option prices together with analyzing the market’s expectation of future volatility.
 // 0xeeaa40b28a2d1b0b08f6f97bb1dd4b75316c6107
 
 // Fractal Protocol Token (FCL)
@@ -8251,7 +8225,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xcaa05e82bdcba9e25cd1a3bf1afb790c1758943d
 
 // Blockchain Monster Coin (BCMC)
-// Blockchain Monster Hunt (BCMH) is the worlda��s first multi-chain game that runs entirely on the blockchain itself. Inspired by PokA�mon-GO, BCMH allows players to continuously explore brand-new places on the blockchain to hunt and battle monsters.
+// Blockchain Monster Hunt (BCMH) is the world’s first multi-chain game that runs entirely on the blockchain itself. Inspired by Pokémon-GO, BCMH allows players to continuously explore brand-new places on the blockchain to hunt and battle monsters.
 // 0x2BA8349123de45E931a8C8264c332E6e9CF593F9
 
 // Free Coin (FREE)
@@ -8272,14 +8246,14 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // Furucombo (COMBO)
-// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a a�?comboa�?), then Furucombo bundles all the cubes into one transaction and sends them out.
+// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a “combo”), then Furucombo bundles all the cubes into one transaction and sends them out.
 // 0xffffffff2ba8f66d4e51811c5190992176930278
 
 
 // Xaurum (Xaurum)
 // Xaurum is unit of value on the golden blockchain, it represents an increasing amount of gold and can be exchanged for it by melting
 // 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
-	
+
 
 // Plasma (PPAY)
 // PPAY is designed as the all-in-one defi service token combining access, rewards, staking and governance functions.
@@ -8321,12 +8295,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Eden Coin (EDN)
 // EdenChain is a blockchain platform that allows for the capitalization of any and every tangible and intangible asset such as stocks, bonds, real estate, and commodities amongst many others.
 // 0x89020f0D5C5AF4f3407Eb5Fe185416c457B0e93e
-	
+
 
 // PieDAO DOUGH v2 (DOUGH)
-// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAOa��s governance votes and proposing votes of their own.
+// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAO’s governance votes and proposing votes of their own.
 // 0xad32A8e6220741182940c5aBF610bDE99E737b2D
-	
+
 
 // cVToken (cV)
 // Decentralized car history registry built on blockchain.
@@ -8344,9 +8318,9 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // Gas DAO (GAS)
-// Gas DAOa��s purpose is simple: to be the heartbeat and voice of the Ethereum networka��s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
+// Gas DAO’s purpose is simple: to be the heartbeat and voice of the Ethereum network’s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
 // 0x6bba316c48b49bd1eac44573c5c871ff02958469
-	
+
 
 // Hiveterminal Token (HVN)
 // A blockchain based platform providing you fast and low-cost liquidity.
@@ -8358,7 +8332,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
 
 // Neumark (NEU)
-// Neufunda��s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
+// Neufund’s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
 // 0xa823e6722006afe99e91c30ff5295052fe6b8e32
 
 
@@ -8410,7 +8384,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // DeFiner (FIN)
 // DeFiner is a non-custodial digital asset platform with a true peer-to-peer network for savings, lending, and borrowing all powered by blockchain technology.
 // 0x054f76beED60AB6dBEb23502178C52d6C5dEbE40
-	
+
 
 // XIO Network (XIO)
 // Blockzero is a decentralized autonomous accelerator that helps blockchain projects reach escape velocity. Users can help build, scale, and own the next generation of decentralized projects at blockzerolabs.io.
@@ -8440,7 +8414,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Mothership (MSP)
 // Cryptocurrency exchange built from the ground up to support cryptocurrency traders with fiat pairs.
 // 0x68AA3F232dA9bdC2343465545794ef3eEa5209BD
-	
+
 
 // FLIP (FLP)
 // FLIP CRYPTO-TOKEN FOR GAMERS FROM GAMING EXPERTS
@@ -8450,10 +8424,10 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Fair Token (FAIR)
 // Fair.Game is a fair game platform based on blockchain technology.
 // 0x9b20dabcec77f6289113e61893f7beefaeb1990a
-	
+
 
 // OCoin (OCN)
-// ODYSSEYa��s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
+// ODYSSEY’s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
 // 0x4092678e4e78230f46a1534c0fbc8fa39780892b
 
 
@@ -8469,7 +8443,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Vibe Coin (VIBE)
 // Crypto Based Virtual / Augmented Reality Marketplace & Hub.
 // 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-	
+
 
 // Gro DAO Token (GRO)
 // Gro is a stablecoin yield optimizer that enables leverage and protection through risk tranching. It splits yield and risk into two symbiotic products; Gro Vault and PWRD Stablecoin.
@@ -8499,7 +8473,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Empty Set Dollar (ESD)
 // ESD is a stablecoin built to be the reserve currency of decentralized finance.
 // 0x36F3FD68E7325a35EB768F1AedaAe9EA0689d723
- 
+
 
 // renDOGE (renDOGE)
 // renDOGE is a one-for-one representation of Dogecoin (DOGE) on Ethereum via RenVM.
@@ -8543,11 +8517,11 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x6e1A19F235bE7ED8E3369eF73b196C07257494DE
 
 // SAND (SAND)
-// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platforma��s utility token.
+// The Sandbox is a virtual world where players can build, own, and monetize their gaming experiences in the Ethereum blockchain using SAND, the platform’s utility token.
 // 0x3845badAde8e6dFF049820680d1F14bD3903a5d0
 
 // KuCoin Token (KCS)
-// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoina��s decentralized financial services as well as the governance token of KuCoin Community.
+// KCS performs as the key to the entire KuCoin ecosystem, and it will also be the native asset on KuCoin’s decentralized financial services as well as the governance token of KuCoin Community.
 // 0xf34960d9d60be18cc1d5afc1a6f012a723a28811
 
 // Compound USD Coin (cUSDC)
@@ -8583,7 +8557,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x0C10bF8FcB7Bf5412187A595ab97a3609160b5c6
 
 // Quant (QNT)
-// Blockchain operating system that connects the worlda��s networks and facilitates the development of multi-chain applications.
+// Blockchain operating system that connects the world’s networks and facilitates the development of multi-chain applications.
 // 0x4a220e6096b25eadb88358cb44068a3248254675
 
 // Compound Dai (cDAI)
@@ -8591,7 +8565,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643
 
 // Paxos Gold (PAXG)
-// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brinka��s vaults.
+// PAX Gold (PAXG) tokens each represent one fine troy ounce of an LBMA-certified, London Good Delivery physical gold bar, secured in Brink’s vaults.
 // 0x45804880De22913dAFE09f4980848ECE6EcbAf78
 
 // Compound Ether (cETH)
@@ -8603,7 +8577,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x4e15361fd6b4bb609fa63c81a2be19d873717870
 
 // Tether Gold (XAUt)
-// Each XAUa�� token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAUa��) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
+// Each XAU? token represents ownership of one troy fine ounce of physical gold on a specific gold bar. Furthermore, Tether Gold (XAU?) is the only product among the competition that offers zero custody fees and has direct control over the physical gold storage.
 // 0x68749665ff8d2d112fa859aa293f07a622782f38
 
 // BitDAO (BIT)
@@ -8626,7 +8600,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x956F47F50A910163D8BF957Cf5846D573E7f87CA
 
 // Zilliqa (ZIL)
-// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands a��of transactions per second.
+// Zilliqa is a high-throughput public blockchain platform - designed to scale to thousands ?of transactions per second.
 // 0x05f4a42e251f2d52b8ed15e9fedaacfcef1fad27
 
 // Amp (AMP)
@@ -8692,7 +8666,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x6810e776880c02933d47db1b9fc05908e5386b96
 
 // MCO (MCO)
-// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the worlda��s transition to cryptocurrency.
+// Crypto.com, the pioneering payments and cryptocurrency platform, seeks to accelerate the world’s transition to cryptocurrency.
 // 0xb63b606ac810a52cca15e44bb630fd42d8d1d83d
 
 // Gemini dollar (GUSD)
@@ -8813,7 +8787,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xcc8fa225d80b9c7d42f96e9570156c65d6caaa25
 
 // Balancer (BAL)
-// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancera��s formula is a generalization that allows any number of tokens in any weights or trading fees.
+// Balancer is a n-dimensional automated market-maker that allows anyone to create or add liquidity to customizable pools and earn trading fees. Instead of the traditional constant product AMM model, Balancer’s formula is a generalization that allows any number of tokens in any weights or trading fees.
 // 0xba100000625a3754423978a60c9317c58a424e3d
 
 // renBTC (renBTC)
@@ -8844,7 +8818,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x96e61422b6a9ba0e068b6c5add4ffabc6a4aae27
 
 // Synapse (SYN)
-// Synapse is a cross-chain layer a?z protocol powering interoperability between blockchains.
+// Synapse is a cross-chain layer ? protocol powering interoperability between blockchains.
 // 0x0f2d719407fdbeff09d87557abb7232601fd9f29
 
 // XSGD (XSGD)
@@ -8880,7 +8854,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x85eee30c52b0b379b046fb0f85f4f3dc3009afec
 
 // Pundi X Token (PUNDIX)
-// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi Xa�?s ecosystem.
+// To provide developers increased use cases and token user base by supporting offline and online payment of their custom tokens in Pundi X‘s ecosystem.
 // 0x0fd10b9899882a6f2fcb5c371e17e70fdee00c38
 
 // PowerLedger (POWR)
@@ -9091,7 +9065,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c
 
 // Boba Token (BOBA)
-// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Bobaa��s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
+// Boba is an Ethereum L2 optimistic rollup that reduces gas fees, improves transaction throughput, and extends the capabilities of smart contracts through Hybrid Compute. Users of Boba’s native fast bridge can withdraw their funds in a few minutes instead of the usual 7 days required by other ORs.
 // 0x42bbfa2e77757c645eeaad1655e0911a7553efbc
 
 // AlphaToken (ALPHA)
@@ -9111,7 +9085,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x0c6f5f7d555e7518f6841a79436bd2b1eef03381
 
 // Beta Token (BETA)
-// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated a�?1-Clicka�? Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
+// Beta Finance is a cross-chain permissionless money market protocol for lending, borrowing, and shorting crypto. Beta Finance has created an integrated “1-Click” Short Tool to initiate, manage, and close short positions, as well as allow anyone to create money markets for a token automatically.
 // 0xbe1a001fe942f96eea22ba08783140b9dcc09d28
 
 // USDK (USDK)
@@ -9268,7 +9242,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xa02120696c7b8fe16c09c749e4598819b2b0e915
 
 // FOX (FOX)
-// FOX is ShapeShifta��s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
+// FOX is ShapeShift’s official loyalty token. Holders of FOX enjoy zero-commission trading and win ongoing USDC crypto payments from Rainfall (payments increase in proportion to your FOX holdings). Use at ShapeShift.com.
 // 0xc770eefad204b5180df6a14ee197d99d808ee52d
 
 // Tellor Tributes (TRB)
@@ -9300,7 +9274,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xb6ed7644c69416d67b522e20bc294a9a9b405b31
 
 // Ixs Token (IXS)
-// IX Swap is the a�?Uniswapa�? for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
+// IX Swap is the “Uniswap” for security tokens (STO) and tokenized stocks (TSO). IX Swap will be the FIRST platform to provide liquidity pools and automated market making functions for the security token (STO) & tokenized stock industry (TSO).
 // 0x73d7c860998ca3c01ce8c808f5577d94d545d1b4
 
 // Shopping.io (SPI)
@@ -9338,14 +9312,14 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // Spheroid (SPH)
-// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platforma��s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
+// Spheroid Universe is a MetaVerse for entertainment, games, advertising, and business in the world of Extended Reality. It operates geo-localized private property on Earth's digital surface (Spaces). The platform’s tech foundation is the Spheroid XR Cloud and the Spheroid Script programming language.
 // 0xa0cf46eb152656c7090e769916eb44a138aaa406
 
 
 // PIKA (PIKA)
 // PikaCrypto is an ERC-20 meme token project.
 // 0x60f5672a271c7e39e787427a18353ba59a4a3578
-	
+
 
 // Monolith (TKN)
 // Non-custodial contract wallet paired with a debit card to spend your ETH & ERC-20 tokens in real life.
@@ -9414,7 +9388,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // SIRIN (SRN)
-// SIRIN LABSa�� aims to become the worlda��s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
+// SIRIN LABS’ aims to become the world’s leader in secure open source consumer electronics, bridging the gap between the mass market and the blockchain econom
 // 0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25
 
 
@@ -9426,7 +9400,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // CREDITS (CS)
 // CREDITS is an open blockchain platform with autonomous smart contracts and the internal cryptocurrency. The platform is designed to create services for blockchain systems using self-executing smart contracts and a public data registry.
 // 0x46b9ad944d1059450da1163511069c718f699d31
-	
+
 
 // Wrapped ETHO (ETHO)
 // Immutable, decentralized, highly redundant storage network. Wide ecosystem providing EVM compatibility, IPFS, and SDK to scale use cases and applications. Strong community and dedicated developer team with passion for utilizing revolutionary technology to support free speech and freedom of data.
@@ -9467,7 +9441,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // TenXPay (PAY)
-// TenX connects your blockchain assets for everyday use. TenXa��s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
+// TenX connects your blockchain assets for everyday use. TenX’s debit card and banking licence will allow us to be a hub for the blockchain ecosystem to connect for real-world use cases.
 // 0xB97048628DB6B661D4C2aA833e95Dbe1A905B280
 
 
@@ -9513,12 +9487,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // TOP Network (TOP)
 // TOP Network is a decentralized open communication network that provides cloud communication services on the blockchain.
 // 0xdcd85914b8ae28c1e62f1c488e1d968d5aaffe2b
-	
+
 
 // Virtue Player Points (VPP)
 // Virtue Poker is a decentralized platform that uses the Ethereum blockchain and P2P networking to provide safe and secure online poker. Virtue Poker also launched Virtue Gaming: a free-to-play play-to-earn platform that is combined with Virtue Poker creating the first legal global player pool.
 // 0x5eeaa2dcb23056f4e8654a349e57ebe5e76b5e6e
-	
+
 
 // Edgeless (EDG)
 // The Ethereum smart contract-based that offers a 0% house edge and solves the transparency question once and for all.
@@ -9541,12 +9515,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Armor (ARMOR)
 // Armor is a smart insurance aggregator for DeFi, built on trustless and decentralized financial infrastructure.
 // 0x1337def16f9b486faed0293eb623dc8395dfe46a
-	
+
 
 // Spendcoin (SPND)
 // Spendcoin powers the Spend.com ecosystem. The Spend Wallet App & Spend Card give our users a multi-currency digital wallet that they can manage or spend from
 // 0xddd460bbd9f79847ea08681563e8a9696867210c
-	
+
 
 // Float Protocol: FLOAT (FLOAT)
 // FLOAT is a token that is designed to act as a floating stable currency in the protocol.
@@ -9663,7 +9637,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // SpaceChain (SPC)
-// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the worlda��s first open-source blockchain-based satellite network.
+// SpaceChain is a community-based space platform that combines space and blockchain technologies to build the world’s first open-source blockchain-based satellite network.
 // 0x8069080a922834460c3a092fb2c1510224dc066b
 
 
@@ -9685,7 +9659,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x0b76544f6c413a555f309bf76260d1e02377c02a
 
 // PayPie (PPP)
-// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the worlda��s first risk score algorithm based on business accounting.
+// PayPie platform brings ultimate trust and transparency to the financial markets by introducing the world’s first risk score algorithm based on business accounting.
 // 0xc42209aCcC14029c1012fB5680D95fBd6036E2a0
 
 // Impermax (IMX)
@@ -9701,7 +9675,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0x96A65609a7B84E8842732DEB08f56C3E21aC6f8a
 
 // NFT INDEX (NFTI)
-// The NFT Index is a digital asset index designed to track tokensa�� performance within the NFT industry. The index is weighted based on the value of each tokena��s circulating supply.
+// The NFT Index is a digital asset index designed to track tokens’ performance within the NFT industry. The index is weighted based on the value of each token’s circulating supply.
 // 0xe5feeac09d36b18b3fa757e5cf3f8da6b8e27f4c
 
 // Own (CHX)
@@ -9717,16 +9691,16 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // ASIA COIN (ASIA)
 // Asia Coin(ASIA) is the native token of Asia Exchange and aiming to be widely used in Asian markets among diamond-Gold and crypto dealers. AsiaX is now offering crypto trading combined with 260,000+ loose diamonds stock.
 // 0xf519381791c03dd7666c142d4e49fd94d3536011
-	
+
 
 // 1World (1WO)
 // 1World is first of its kind media token and new generation Adsense. 1WO is used for increasing user engagement by sharing 10% ads revenue with participants and for buying ads.
 // 0xfdbc1adc26f0f8f8606a5d63b7d3a3cd21c22b23
 
 // Insights Network (INSTAR)
-// The Insights Networka��s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
+// The Insights Network’s unique combination of blockchain technology, smart contracts, and secure multiparty computation enables the individual to securely own, manage, and monetize their data.
 // 0xc72fe8e3dd5bef0f9f31f259399f301272ef2a2d
-	
+
 
 // Cryptonovae (YAE)
 // Cryptonovae is an all-in-one multi-exchange trading ecosystem to manage digital assets across centralized and decentralized exchanges. It aims to provide a sophisticated trading experience through advanced charting features and trade management.
@@ -9776,14 +9750,14 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // Furucombo (COMBO)
-// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a a�?comboa�?), then Furucombo bundles all the cubes into one transaction and sends them out.
+// Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. It visualizes complex DeFi protocols into cubes. Users setup inputs/outputs and the order of the cubes (a “combo”), then Furucombo bundles all the cubes into one transaction and sends them out.
 // 0xffffffff2ba8f66d4e51811c5190992176930278
 
 
 // Xaurum (Xaurum)
 // Xaurum is unit of value on the golden blockchain, it represents an increasing amount of gold and can be exchanged for it by melting
 // 0x4DF812F6064def1e5e029f1ca858777CC98D2D81
-	
+
 
 // Plasma (PPAY)
 // PPAY is designed as the all-in-one defi service token combining access, rewards, staking and governance functions.
@@ -9825,12 +9799,12 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Eden Coin (EDN)
 // EdenChain is a blockchain platform that allows for the capitalization of any and every tangible and intangible asset such as stocks, bonds, real estate, and commodities amongst many others.
 // 0x89020f0D5C5AF4f3407Eb5Fe185416c457B0e93e
-	
+
 
 // PieDAO DOUGH v2 (DOUGH)
-// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAOa��s governance votes and proposing votes of their own.
+// DOUGH is the PieDAO governance token. Owning DOUGH makes you a member of PieDAO. Holders are capable of participating in the DAO’s governance votes and proposing votes of their own.
 // 0xad32A8e6220741182940c5aBF610bDE99E737b2D
-	
+
 
 // cVToken (cV)
 // Decentralized car history registry built on blockchain.
@@ -9848,9 +9822,9 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 
 
 // Gas DAO (GAS)
-// Gas DAOa��s purpose is simple: to be the heartbeat and voice of the Ethereum networka��s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
+// Gas DAO’s purpose is simple: to be the heartbeat and voice of the Ethereum network’s active users through on and off-chain governance, launched as a decentralized autonomous organization with a free and fair initial distribution 100x bigger than the original DAO.
 // 0x6bba316c48b49bd1eac44573c5c871ff02958469
-	
+
 
 // Hiveterminal Token (HVN)
 // A blockchain based platform providing you fast and low-cost liquidity.
@@ -9862,7 +9836,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // 0xe469c4473af82217b30cf17b10bcdb6c8c796e75
 
 // Neumark (NEU)
-// Neufunda��s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
+// Neufund’s Equity Token Offerings (ETOs) open the possibility to fundraise on Blockchain, with legal and technical framework done for you.
 // 0xa823e6722006afe99e91c30ff5295052fe6b8e32
 
 
@@ -9914,7 +9888,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // DeFiner (FIN)
 // DeFiner is a non-custodial digital asset platform with a true peer-to-peer network for savings, lending, and borrowing all powered by blockchain technology.
 // 0x054f76beED60AB6dBEb23502178C52d6C5dEbE40
-	
+
 
 // XIO Network (XIO)
 // Blockzero is a decentralized autonomous accelerator that helps blockchain projects reach escape velocity. Users can help build, scale, and own the next generation of decentralized projects at blockzerolabs.io.
@@ -9944,7 +9918,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Mothership (MSP)
 // Cryptocurrency exchange built from the ground up to support cryptocurrency traders with fiat pairs.
 // 0x68AA3F232dA9bdC2343465545794ef3eEa5209BD
-	
+
 
 // FLIP (FLP)
 // FLIP CRYPTO-TOKEN FOR GAMERS FROM GAMING EXPERTS
@@ -9954,10 +9928,10 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Fair Token (FAIR)
 // Fair.Game is a fair game platform based on blockchain technology.
 // 0x9b20dabcec77f6289113e61893f7beefaeb1990a
-	
+
 
 // OCoin (OCN)
-// ODYSSEYa��s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
+// ODYSSEY’s mission is to build the next-generation decentralized sharing economy & Peer to Peer Ecosystem.
 // 0x4092678e4e78230f46a1534c0fbc8fa39780892b
 
 
@@ -9973,7 +9947,7 @@ return 0x5c4367bbe351934784666D192741A64a072B60D0;
 // Vibe Coin (VIBE)
 // Crypto Based Virtual / Augmented Reality Marketplace & Hub.
 // 0xe8ff5c9c75deb346acac493c463c8950be03dfba
-	
+
 
 // Gro DAO Token (GRO)
 // Gro is a stablecoin yield optimizer that enables leverage and protection through risk tranching. It splits yield and risk into two symbiotic products; Gro Vault and PWRD Stablecoin.
